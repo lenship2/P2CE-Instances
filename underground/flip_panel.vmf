@@ -1,0 +1,429 @@
+versioninfo
+{
+	"editorextension" "strata"
+	"editorversion" "400"
+	"editorbuild" "10953"
+	"mapversion" "4"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "1"
+	"nGridSpacing" "8"
+	"bShow3DGrid" "0"
+	"nInstanceVisibility" "2"
+	views
+	{
+		v0
+		{
+			"3d" "1"
+			"position" "(-83.3465 23.9491 94.5268)"
+			"angle" "[1.2 -6.38896 0]"
+		}
+		v1
+		{
+			"3d" "0"
+			"position" "(106.493 -2.09314 65536)"
+			"zoom" "2.22903"
+		}
+		v2
+		{
+			"3d" "0"
+			"position" "(65536 37.9674 89.0681)"
+			"zoom" "9.58425"
+		}
+		v3
+		{
+			"3d" "0"
+			"position" "(-488.52 192 798.038)"
+			"zoom" "2.22903"
+		}
+	}
+}
+world
+{
+	"id" "1"
+	"mapversion" "4"
+	"classname" "worldspawn"
+	"skyname" "sky_black_nofog"
+	"maxpropscreenwidth" "-1"
+	"detailvbsp" "detail.vbsp"
+	"detailmaterial" "detail/detailsprites"
+	"maxblobcount" "250"
+	"maxprojectedtextures" "8"
+}
+entity
+{
+	"id" "199"
+	"classname" "prop_dynamic"
+	"AllowSilentDissolve" "1"
+	"angles" "0 0 0"
+	"animateeveryframe" "1"
+	"body" "0"
+	"collisiongroup" "0"
+	"disablebonefollowers" "0"
+	"disableflashlight" "0"
+	"disablereceiveshadows" "0"
+	"effects" "0"
+	"explodedamage" "0"
+	"explodemagnitude" "0"
+	"exploderadius" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"glowcolor" "255 255 255"
+	"glowdist" "1024"
+	"glowenabled" "0"
+	"glowstyle" "0"
+	"health" "0"
+	"holdanimation" "0"
+	"maxanimtime" "10"
+	"minanimtime" "5"
+	"minhealthdmg" "0"
+	"model" "models/props_underground/rollup_motor_wheel.mdl"
+	"modelscale" "1"
+	"parentname" "panel"
+	"performancemode" "0"
+	"physdamagescale" "1.0"
+	"pressuredelay" "0"
+	"randomanimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"setbodygroup" "0"
+	"shadowdepthnocache" "0"
+	"skin" "0"
+	"solid" "6"
+	"spawnflags" "0"
+	"startdisabled" "0"
+	"suppressanimsounds" "0"
+	"texframeindex" "0"
+	"viewhideflags" "0"
+	"origin" "-8 0 116"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "233"
+	"classname" "prop_dynamic"
+	"AllowSilentDissolve" "1"
+	"angles" "0 0 0"
+	"animateeveryframe" "1"
+	"body" "0"
+	"collisiongroup" "0"
+	"disablebonefollowers" "0"
+	"disableflashlight" "0"
+	"disablereceiveshadows" "0"
+	"effects" "0"
+	"explodedamage" "0"
+	"explodemagnitude" "0"
+	"exploderadius" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"glowcolor" "255 255 255"
+	"glowdist" "1024"
+	"glowenabled" "0"
+	"glowstyle" "0"
+	"health" "0"
+	"holdanimation" "0"
+	"maxanimtime" "10"
+	"minanimtime" "5"
+	"minhealthdmg" "0"
+	"model" "models/props_underground/rollup_motor.mdl"
+	"modelscale" "1"
+	"performancemode" "0"
+	"physdamagescale" "1.0"
+	"pressuredelay" "0"
+	"randomanimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"setbodygroup" "0"
+	"shadowdepthnocache" "0"
+	"skin" "0"
+	"solid" "6"
+	"spawnflags" "0"
+	"startdisabled" "0"
+	"suppressanimsounds" "0"
+	"texframeindex" "0"
+	"viewhideflags" "0"
+	"origin" "-8 0 116"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "258"
+	"classname" "func_door_rotating"
+	"_minlight" "0"
+	"angles" "0 0 0"
+	"collisiongroup" "0"
+	"disableflashlight" "0"
+	"disablereceiveshadows" "0"
+	"disableshadowdepth" "0"
+	"distance" "180"
+	"dmg" "0"
+	"drawinfastreflection" "0"
+	"effects" "0"
+	"forceclosed" "0"
+	"health" "0"
+	"ignoredebris" "0"
+	"lip" "0"
+	"locked_sentence" "0"
+	"loopmovesound" "0"
+	"noise1" "World.a3JumpIntroRotatingPanelTravel"
+	"noise2" "World.a3JumpIntroRotatingPanelArrive"
+	"origin" "-8 0 58"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"shadowdepthnocache" "0"
+	"solid" "6"
+	"solidbsp" "1"
+	"spawnflags" "0"
+	"spawnpos" "0"
+	"speed" "380"
+	"targetname" "panel"
+	"unlocked_sentence" "0"
+	"viewhideflags" "0"
+	"vrad_brush_cast_shadows" "0"
+	"wait" "-1"
+	solid
+	{
+		"id" "2"
+		side
+		{
+			"id" "1"
+			"plane" "(-12 48 116) (-4 48 116) (-4 -48 116)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -12 48 116"
+				"point" "1 -4 48 116"
+				"point" "2 -4 -48 116"
+				"point" "3 -12 -48 116"
+			}
+			"material" "ANIM_WP/FRAMEWORK/SQUAREBEAMS_RUSTY_01"
+			"uaxis" "[1 0 0 62] 0.25"
+			"vaxis" "[0 -1 0 128] 0.375"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2"
+			"plane" "(-12 -48 0) (-4 -48 0) (-4 48 0)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -12 -48 0"
+				"point" "1 -4 -48 0"
+				"point" "2 -4 48 0"
+				"point" "3 -12 48 0"
+			}
+			"material" "ANIM_WP/FRAMEWORK/SQUAREBEAMS_RUSTY_01"
+			"uaxis" "[1 0 0 62] 0.25"
+			"vaxis" "[0 -1 0 128] 0.375"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3"
+			"plane" "(-12 48 116) (-12 -48 116) (-12 -48 0)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -12 48 116"
+				"point" "1 -12 -48 116"
+				"point" "2 -12 -48 0"
+				"point" "3 -12 48 0"
+			}
+			"material" "WOOD/UNDERGROUND_WOODWALL003B"
+			"uaxis" "[0 1 0 192] 0.25"
+			"vaxis" "[0 0 -1 387] 0.3"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "4"
+			"plane" "(-4 48 0) (-4 -48 0) (-4 -48 116)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -4 48 0"
+				"point" "1 -4 -48 0"
+				"point" "2 -4 -48 116"
+				"point" "3 -4 48 116"
+			}
+			"material" "METAL/UNDERGROUND_WALL_METAL001A"
+			"uaxis" "[0 1 0 256] 0.1875"
+			"vaxis" "[0 0 -1 0] 0.226562"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "5"
+			"plane" "(-4 48 116) (-12 48 116) (-12 48 0)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -4 48 116"
+				"point" "1 -12 48 116"
+				"point" "2 -12 48 0"
+				"point" "3 -4 48 0"
+			}
+			"material" "ANIM_WP/FRAMEWORK/SQUAREBEAMS_RUSTY_01"
+			"uaxis" "[1 0 0 62] 0.25"
+			"vaxis" "[0 0 -1 4] 0.225"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "6"
+			"plane" "(-4 -48 0) (-12 -48 0) (-12 -48 116)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -4 -48 0"
+				"point" "1 -12 -48 0"
+				"point" "2 -12 -48 116"
+				"point" "3 -4 -48 116"
+			}
+			"material" "ANIM_WP/FRAMEWORK/SQUAREBEAMS_RUSTY_01"
+			"uaxis" "[1 0 0 62] 0.25"
+			"vaxis" "[0 0 -1 4] 0.225"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "299"
+	"classname" "info_placement_helper"
+	"angles" "0 180 0"
+	"force_placement" "0"
+	"parentname" "panel"
+	"radius" "58"
+	"snap_to_helper_angles" "0"
+	"startdisabled" "0"
+	"origin" "-12 0 58"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "357"
+	"classname" "comp_relay"
+	"ctrl_type" "0"
+	"ctrl_value" "1"
+	"delay" "0.0"
+	"targetname" "flip"
+	connections
+	{
+		"OnTrigger" "panelOpen0-1"
+	}
+	"origin" "-24 40 104"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "376"
+	"classname" "func_instance_io_proxy"
+	"targetname" "proxy"
+	connections
+	{
+		"OnProxyRelay" "flipTrigger0-1"
+		"OnProxyRelay" "unflipTrigger0-1"
+	}
+	"origin" "-24 -40 104"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "399"
+	"classname" "comp_relay"
+	"ctrl_type" "0"
+	"ctrl_value" "1"
+	"delay" "0.0"
+	"targetname" "unflip"
+	connections
+	{
+		"OnTrigger" "panelClose0-1"
+	}
+	"origin" "-24 40 88"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordons
+{
+	"active" "0"
+}

@@ -1,0 +1,1479 @@
+versioninfo
+{
+	"editorextension" "strata"
+	"editorversion" "400"
+	"editorbuild" "10946"
+	"mapversion" "41"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+	visgroup
+	{
+		"name" "descriptions"
+		"visgroupid" "15"
+		"color" "195 208 209"
+	}
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "1"
+	"nGridSpacing" "2"
+	"bShow3DGrid" "0"
+	"nInstanceVisibility" "2"
+	views
+	{
+		v0
+		{
+			"3d" "1"
+			"position" "(-43.0232 52.2958 -215.025)"
+			"angle" "[-9.20013 -56.3931 0]"
+		}
+		v1
+		{
+			"3d" "0"
+			"position" "(944.898 -495.105 -576)"
+			"zoom" "0.895799"
+		}
+		v2
+		{
+			"3d" "0"
+			"position" "(576 -517.152 -548.928)"
+			"zoom" "3.20975"
+		}
+		v3
+		{
+			"3d" "0"
+			"position" "(740.997 0 -477.509)"
+			"zoom" "2.22903"
+		}
+	}
+}
+world
+{
+	"id" "1"
+	"mapversion" "41"
+	"classname" "worldspawn"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxblobcount" "250"
+	"maxprojectedtextures" "8"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_black_nofog"
+	solid
+	{
+		"id" "295"
+		side
+		{
+			"id" "1"
+			"plane" "(-40 40 -128) (-56 0 -128) (-40 -40 -128)"
+			point_data
+			{
+				"numpts" "8"
+				"point" "0 -40 40 -128"
+				"point" "1 -56 0 -128"
+				"point" "2 -40 -40 -128"
+				"point" "3 -0 -56 -128"
+				"point" "4 40 -40 -128"
+				"point" "5 56 -0 -128"
+				"point" "6 40 40 -128"
+				"point" "7 0 56 -128"
+			}
+			"material" "TOOLS/TOOLSPLAYERCLIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2"
+			"plane" "(0 56 0) (40 40 0) (56 -0 0)"
+			point_data
+			{
+				"numpts" "8"
+				"point" "0 0 56 0"
+				"point" "1 40 40 0"
+				"point" "2 56 -0 0"
+				"point" "3 40 -40 0"
+				"point" "4 -0 -56 0"
+				"point" "5 -40 -40 0"
+				"point" "6 -56 0 0"
+				"point" "7 -40 40 0"
+			}
+			"material" "TOOLS/TOOLSPLAYERCLIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3"
+			"plane" "(0 56 -128) (40 40 -128) (40 40 0)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 0 56 -128"
+				"point" "1 40 40 -128"
+				"point" "2 40 40 0"
+				"point" "3 0 56 0"
+			}
+			"material" "TOOLS/TOOLSPLAYERCLIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "4"
+			"plane" "(40 40 -128) (56 -0 -128) (56 -0 0)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 40 40 -128"
+				"point" "1 56 -0 -128"
+				"point" "2 56 -0 0"
+				"point" "3 40 40 0"
+			}
+			"material" "TOOLS/TOOLSPLAYERCLIP"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "5"
+			"plane" "(56 -0 -128) (40 -40 -128) (40 -40 0)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 56 -0 -128"
+				"point" "1 40 -40 -128"
+				"point" "2 40 -40 0"
+				"point" "3 56 -0 0"
+			}
+			"material" "TOOLS/TOOLSPLAYERCLIP"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "6"
+			"plane" "(40 -40 -128) (-0 -56 -128) (-0 -56 0)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 40 -40 -128"
+				"point" "1 -0 -56 -128"
+				"point" "2 -0 -56 0"
+				"point" "3 40 -40 0"
+			}
+			"material" "TOOLS/TOOLSPLAYERCLIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "7"
+			"plane" "(-0 -56 -128) (-40 -40 -128) (-40 -40 0)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -0 -56 -128"
+				"point" "1 -40 -40 -128"
+				"point" "2 -40 -40 0"
+				"point" "3 -0 -56 0"
+			}
+			"material" "TOOLS/TOOLSPLAYERCLIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "8"
+			"plane" "(-40 -40 -128) (-56 0 -128) (-56 0 0)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -40 -40 -128"
+				"point" "1 -56 0 -128"
+				"point" "2 -56 0 0"
+				"point" "3 -40 -40 0"
+			}
+			"material" "TOOLS/TOOLSPLAYERCLIP"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "9"
+			"plane" "(-56 0 -128) (-40 40 -128) (-40 40 0)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -56 0 -128"
+				"point" "1 -40 40 -128"
+				"point" "2 -40 40 0"
+				"point" "3 -56 0 0"
+			}
+			"material" "TOOLS/TOOLSPLAYERCLIP"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "10"
+			"plane" "(-40 40 -128) (0 56 -128) (0 56 0)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -40 40 -128"
+				"point" "1 0 56 -128"
+				"point" "2 0 56 0"
+				"point" "3 -40 40 0"
+			}
+			"material" "TOOLS/TOOLSPLAYERCLIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 162 139"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+}
+entity
+{
+	"id" "1048"
+	"classname" "hammer_notes"
+	"angles" "-0 0 0"
+	"color" "255 255 255"
+	"message" "-$paintflow(integer): Flow of gel."
+	"textsize" "4"
+	connections
+	{
+		"OnCase01" "dripTrigger0-1"
+		"OnCase02" "lightTrigger0-1"
+		"OnCase03" "mediumTrigger0-1"
+		"OnCase04" "heavyTrigger0-1"
+	}
+	"origin" "56 40 -200"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupid" "15"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "1122"
+	"classname" "hammer_notes"
+	"angles" "-0 0 0"
+	"color" "255 255 255"
+	"message" "-0: Drip"
+	"textsize" "4"
+	connections
+	{
+		"OnCase01" "dripTrigger0-1"
+		"OnCase02" "lightTrigger0-1"
+		"OnCase03" "mediumTrigger0-1"
+		"OnCase04" "heavyTrigger0-1"
+	}
+	"origin" "56 36 -206"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupid" "15"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "1168"
+	"classname" "hammer_notes"
+	"angles" "-0 0 0"
+	"color" "255 255 255"
+	"message" "-1: Light"
+	"textsize" "4"
+	connections
+	{
+		"OnCase01" "dripTrigger0-1"
+		"OnCase02" "lightTrigger0-1"
+		"OnCase03" "mediumTrigger0-1"
+		"OnCase04" "heavyTrigger0-1"
+	}
+	"origin" "56 36 -212"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupid" "15"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "1224"
+	"classname" "hammer_notes"
+	"angles" "-0 0 0"
+	"color" "255 255 255"
+	"message" "-2: Medium"
+	"textsize" "4"
+	connections
+	{
+		"OnCase01" "dripTrigger0-1"
+		"OnCase02" "lightTrigger0-1"
+		"OnCase03" "mediumTrigger0-1"
+		"OnCase04" "heavyTrigger0-1"
+	}
+	"origin" "56 36 -218"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupid" "15"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "1252"
+	"classname" "hammer_notes"
+	"angles" "-0 0 0"
+	"color" "255 255 255"
+	"message" "-3: Heavy"
+	"textsize" "4"
+	connections
+	{
+		"OnCase01" "dripTrigger0-1"
+		"OnCase02" "lightTrigger0-1"
+		"OnCase03" "mediumTrigger0-1"
+		"OnCase04" "heavyTrigger0-1"
+	}
+	"origin" "56 36 -224"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupid" "15"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "1287"
+	"classname" "hammer_notes"
+	"angles" "-0 -90 0"
+	"color" "255 255 255"
+	"message" "--Paint Type"
+	"textsize" "3"
+	connections
+	{
+		"OnCase01" "dripTrigger0-1"
+		"OnCase02" "lightTrigger0-1"
+		"OnCase03" "mediumTrigger0-1"
+		"OnCase04" "heavyTrigger0-1"
+	}
+	"origin" "48 -52 -200"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupid" "15"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "1401"
+	"classname" "hammer_notes"
+	"angles" "-0 -90 0"
+	"color" "255 255 255"
+	"message" "--$painttype"
+	"textsize" "3"
+	connections
+	{
+		"OnCase01" "dripTrigger0-1"
+		"OnCase02" "lightTrigger0-1"
+		"OnCase03" "mediumTrigger0-1"
+		"OnCase04" "heavyTrigger0-1"
+	}
+	"origin" "22 -52 -200"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupid" "15"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "1422"
+	"classname" "hammer_notes"
+	"angles" "-0 -90 0"
+	"color" "255 255 255"
+	"message" "--$dropper_skin"
+	"textsize" "3"
+	connections
+	{
+		"OnCase01" "dripTrigger0-1"
+		"OnCase02" "lightTrigger0-1"
+		"OnCase03" "mediumTrigger0-1"
+		"OnCase04" "heavyTrigger0-1"
+	}
+	"origin" "-4 -52 -200"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupid" "15"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "1495"
+	"classname" "hammer_notes"
+	"angles" "-0 -90 0"
+	"color" "255 255 255"
+	"message" "--$paint_tint"
+	"textsize" "3"
+	connections
+	{
+		"OnCase01" "dripTrigger0-1"
+		"OnCase02" "lightTrigger0-1"
+		"OnCase03" "mediumTrigger0-1"
+		"OnCase04" "heavyTrigger0-1"
+	}
+	"origin" "-36 -52 -200"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupid" "15"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "1763"
+	"classname" "hammer_notes"
+	"angles" "-0 -90 0"
+	"color" "0 165 255"
+	"message" "- Bounce"
+	"textsize" "3"
+	connections
+	{
+		"OnCase01" "dripTrigger0-1"
+		"OnCase02" "lightTrigger0-1"
+		"OnCase03" "mediumTrigger0-1"
+		"OnCase04" "heavyTrigger0-1"
+	}
+	"origin" "48 -52 -206"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupid" "15"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "1784"
+	"classname" "hammer_notes"
+	"angles" "-0 -90 0"
+	"color" "0 165 255"
+	"message" "- 0"
+	"textsize" "5"
+	connections
+	{
+		"OnCase01" "dripTrigger0-1"
+		"OnCase02" "lightTrigger0-1"
+		"OnCase03" "mediumTrigger0-1"
+		"OnCase04" "heavyTrigger0-1"
+	}
+	"origin" "16 -52 -208"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupid" "15"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "1875"
+	"classname" "hammer_notes"
+	"angles" "-0 -90 0"
+	"color" "0 165 255"
+	"message" "- 3"
+	"textsize" "5"
+	connections
+	{
+		"OnCase01" "dripTrigger0-1"
+		"OnCase02" "lightTrigger0-1"
+		"OnCase03" "mediumTrigger0-1"
+		"OnCase04" "heavyTrigger0-1"
+	}
+	"origin" "-10 -52 -208"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupid" "15"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "1912"
+	"classname" "hammer_notes"
+	"angles" "-0 -90 0"
+	"color" "0 165 255"
+	"message" "- paint_bounce"
+	"textsize" "3"
+	connections
+	{
+		"OnCase01" "dripTrigger0-1"
+		"OnCase02" "lightTrigger0-1"
+		"OnCase03" "mediumTrigger0-1"
+		"OnCase04" "heavyTrigger0-1"
+	}
+	"origin" "-36 -52 -206"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupid" "15"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "1977"
+	"classname" "hammer_notes"
+	"angles" "-0 -90 0"
+	"color" "128 128 128"
+	"message" "- 1"
+	"textsize" "5"
+	connections
+	{
+		"OnCase01" "dripTrigger0-1"
+		"OnCase02" "lightTrigger0-1"
+		"OnCase03" "mediumTrigger0-1"
+		"OnCase04" "heavyTrigger0-1"
+	}
+	"origin" "16 -52 -214"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupid" "15"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "1984"
+	"classname" "hammer_notes"
+	"angles" "-0 -90 0"
+	"color" "128 128 128"
+	"message" "- 5"
+	"textsize" "5"
+	connections
+	{
+		"OnCase01" "dripTrigger0-1"
+		"OnCase02" "lightTrigger0-1"
+		"OnCase03" "mediumTrigger0-1"
+		"OnCase04" "heavyTrigger0-1"
+	}
+	"origin" "-10 -52 -214"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupid" "15"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "2046"
+	"classname" "hammer_notes"
+	"angles" "-0 -90 0"
+	"color" "128 128 128"
+	"message" "- paint_reflect"
+	"textsize" "3"
+	connections
+	{
+		"OnCase01" "dripTrigger0-1"
+		"OnCase02" "lightTrigger0-1"
+		"OnCase03" "mediumTrigger0-1"
+		"OnCase04" "heavyTrigger0-1"
+	}
+	"origin" "-36 -52 -212"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupid" "15"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "2067"
+	"classname" "hammer_notes"
+	"angles" "-0 -90 0"
+	"color" "128 128 128"
+	"message" "- Reflect"
+	"textsize" "3"
+	connections
+	{
+		"OnCase01" "dripTrigger0-1"
+		"OnCase02" "lightTrigger0-1"
+		"OnCase03" "mediumTrigger0-1"
+		"OnCase04" "heavyTrigger0-1"
+	}
+	"origin" "48 -52 -212"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupid" "15"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "2172"
+	"classname" "hammer_notes"
+	"angles" "-0 -90 0"
+	"color" "255 106 0"
+	"message" "- paint_speed"
+	"textsize" "3"
+	connections
+	{
+		"OnCase01" "dripTrigger0-1"
+		"OnCase02" "lightTrigger0-1"
+		"OnCase03" "mediumTrigger0-1"
+		"OnCase04" "heavyTrigger0-1"
+	}
+	"origin" "-36 -52 -218"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupid" "15"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "2179"
+	"classname" "hammer_notes"
+	"angles" "-0 -90 0"
+	"color" "255 106 0"
+	"message" "- 2"
+	"textsize" "5"
+	connections
+	{
+		"OnCase01" "dripTrigger0-1"
+		"OnCase02" "lightTrigger0-1"
+		"OnCase03" "mediumTrigger0-1"
+		"OnCase04" "heavyTrigger0-1"
+	}
+	"origin" "-10 -52 -220"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupid" "15"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "2186"
+	"classname" "hammer_notes"
+	"angles" "-0 -90 0"
+	"color" "255 106 0"
+	"message" "- 2"
+	"textsize" "5"
+	connections
+	{
+		"OnCase01" "dripTrigger0-1"
+		"OnCase02" "lightTrigger0-1"
+		"OnCase03" "mediumTrigger0-1"
+		"OnCase04" "heavyTrigger0-1"
+	}
+	"origin" "16 -52 -220"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupid" "15"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "2193"
+	"classname" "hammer_notes"
+	"angles" "-0 -90 0"
+	"color" "255 106 0"
+	"message" "- Speed"
+	"textsize" "3"
+	connections
+	{
+		"OnCase01" "dripTrigger0-1"
+		"OnCase02" "lightTrigger0-1"
+		"OnCase03" "mediumTrigger0-1"
+		"OnCase04" "heavyTrigger0-1"
+	}
+	"origin" "48 -52 -218"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupid" "15"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "2323"
+	"classname" "hammer_notes"
+	"angles" "-0 -90 0"
+	"color" "250 250 250"
+	"message" "- Portal"
+	"textsize" "3"
+	connections
+	{
+		"OnCase01" "dripTrigger0-1"
+		"OnCase02" "lightTrigger0-1"
+		"OnCase03" "mediumTrigger0-1"
+		"OnCase04" "heavyTrigger0-1"
+	}
+	"origin" "48 -52 -224"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupid" "15"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "2330"
+	"classname" "hammer_notes"
+	"angles" "-0 -90 0"
+	"color" "250 250 250"
+	"message" "- 3"
+	"textsize" "5"
+	connections
+	{
+		"OnCase01" "dripTrigger0-1"
+		"OnCase02" "lightTrigger0-1"
+		"OnCase03" "mediumTrigger0-1"
+		"OnCase04" "heavyTrigger0-1"
+	}
+	"origin" "16 -52 -226"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupid" "15"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "2337"
+	"classname" "hammer_notes"
+	"angles" "-0 -90 0"
+	"color" "250 250 250"
+	"message" "- 0"
+	"textsize" "5"
+	connections
+	{
+		"OnCase01" "dripTrigger0-1"
+		"OnCase02" "lightTrigger0-1"
+		"OnCase03" "mediumTrigger0-1"
+		"OnCase04" "heavyTrigger0-1"
+	}
+	"origin" "-10 -52 -226"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupid" "15"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "2344"
+	"classname" "hammer_notes"
+	"angles" "-0 -90 0"
+	"color" "250 250 250"
+	"message" "- paint_portal"
+	"textsize" "3"
+	connections
+	{
+		"OnCase01" "dripTrigger0-1"
+		"OnCase02" "lightTrigger0-1"
+		"OnCase03" "mediumTrigger0-1"
+		"OnCase04" "heavyTrigger0-1"
+	}
+	"origin" "-36 -52 -224"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupid" "15"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "2592"
+	"classname" "hammer_notes"
+	"angles" "-0 -90 0"
+	"color" "192 199 211"
+	"message" "- Erase"
+	"textsize" "3"
+	connections
+	{
+		"OnCase01" "dripTrigger0-1"
+		"OnCase02" "lightTrigger0-1"
+		"OnCase03" "mediumTrigger0-1"
+		"OnCase04" "heavyTrigger0-1"
+	}
+	"origin" "48 -52 -230"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupid" "15"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "2599"
+	"classname" "hammer_notes"
+	"angles" "-0 -90 0"
+	"color" "192 199 211"
+	"message" "- 4"
+	"textsize" "5"
+	connections
+	{
+		"OnCase01" "dripTrigger0-1"
+		"OnCase02" "lightTrigger0-1"
+		"OnCase03" "mediumTrigger0-1"
+		"OnCase04" "heavyTrigger0-1"
+	}
+	"origin" "16 -52 -232"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupid" "15"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "2606"
+	"classname" "hammer_notes"
+	"angles" "-0 -90 0"
+	"color" "192 199 211"
+	"message" "- 1"
+	"textsize" "5"
+	connections
+	{
+		"OnCase01" "dripTrigger0-1"
+		"OnCase02" "lightTrigger0-1"
+		"OnCase03" "mediumTrigger0-1"
+		"OnCase04" "heavyTrigger0-1"
+	}
+	"origin" "-10 -52 -232"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupid" "15"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "2613"
+	"classname" "hammer_notes"
+	"angles" "-0 -90 0"
+	"color" "192 199 211"
+	"message" "- paint_erase"
+	"textsize" "3"
+	connections
+	{
+		"OnCase01" "dripTrigger0-1"
+		"OnCase02" "lightTrigger0-1"
+		"OnCase03" "mediumTrigger0-1"
+		"OnCase04" "heavyTrigger0-1"
+	}
+	"origin" "-36 -52 -230"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupid" "15"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "3105"
+	"classname" "hammer_notes"
+	"angles" "-0 -90 0"
+	"color" "0 200 33"
+	"message" "- Stick"
+	"textsize" "3"
+	connections
+	{
+		"OnCase01" "dripTrigger0-1"
+		"OnCase02" "lightTrigger0-1"
+		"OnCase03" "mediumTrigger0-1"
+		"OnCase04" "heavyTrigger0-1"
+	}
+	"origin" "48 -52 -236"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupid" "15"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "3112"
+	"classname" "hammer_notes"
+	"angles" "-0 -90 0"
+	"color" "0 200 33"
+	"message" "- 5"
+	"textsize" "5"
+	connections
+	{
+		"OnCase01" "dripTrigger0-1"
+		"OnCase02" "lightTrigger0-1"
+		"OnCase03" "mediumTrigger0-1"
+		"OnCase04" "heavyTrigger0-1"
+	}
+	"origin" "16 -52 -238"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupid" "15"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "3119"
+	"classname" "hammer_notes"
+	"angles" "-0 -90 0"
+	"color" "0 200 33"
+	"message" "- 4"
+	"textsize" "5"
+	connections
+	{
+		"OnCase01" "dripTrigger0-1"
+		"OnCase02" "lightTrigger0-1"
+		"OnCase03" "mediumTrigger0-1"
+		"OnCase04" "heavyTrigger0-1"
+	}
+	"origin" "-10 -52 -238"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupid" "15"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "3126"
+	"classname" "hammer_notes"
+	"angles" "-0 -90 0"
+	"color" "0 200 33"
+	"message" "- paint_stick"
+	"textsize" "3"
+	connections
+	{
+		"OnCase01" "dripTrigger0-1"
+		"OnCase02" "lightTrigger0-1"
+		"OnCase03" "mediumTrigger0-1"
+		"OnCase04" "heavyTrigger0-1"
+	}
+	"origin" "-36 -52 -236"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupid" "15"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "2"
+	"classname" "prop_static"
+	"angles" "90 270 0"
+	"colorvar" "$paint_tint"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"model" "models/props_underground/tube_paint_128a.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"scale" "1 1 1"
+	"skin" "0"
+	"solid" "0"
+	"uniformscale" "1"
+	"origin" "0 0 -64"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "29"
+	"classname" "prop_static"
+	"angles" "0 0 0"
+	"colorvar" "paint_erase"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"model" "models/props_underground/underground_paintdropper.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"scale" "1 1 1"
+	"skin" "$dropper_skin"
+	"solid" "6"
+	"uniformscale" "1"
+	"origin" "0 0 -216"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "56"
+	"classname" "prop_static"
+	"angles" "90 0 0"
+	"colorvar" "$paint_tint"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"model" "models/props_underground/tube_paint_interior_cap.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"scale" "1 1 1"
+	"skin" "0"
+	"solid" "6"
+	"uniformscale" "1"
+	"origin" "0 0 -128"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "208"
+	"classname" "info_paint_sprayer"
+	"ambientsound" "0"
+	"angles" "90 0 0"
+	"blob_spread_angle" "8"
+	"blob_spread_radius" "40"
+	"blob_streak_percentage" "100"
+	"blobs_per_second" "3"
+	"drawonly" "0"
+	"end_radius_max" "0.7"
+	"end_radius_min" "0.5"
+	"max_speed" "0"
+	"max_streak_speed_dampen" "0"
+	"max_streak_time" "0.35"
+	"maxblobcount" "250"
+	"min_speed" "0"
+	"min_streak_speed_dampen" "0"
+	"min_streak_time" "0.2"
+	"painttype" "$painttype"
+	"radius_grow_time_max" "1"
+	"radius_grow_time_min" "0.5"
+	"silent" "0"
+	"skin" "0"
+	"start_active" "$start_active"
+	"start_radius_max" "0.7"
+	"start_radius_min" "0.5"
+	"targetname" "paint_sprayer2"
+	"origin" "0 0 -160"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "387"
+	"classname" "info_paint_sprayer"
+	"ambientsound" "2"
+	"angles" "90 0 0"
+	"blob_spread_angle" "8"
+	"blob_spread_radius" "8"
+	"blob_streak_percentage" "100"
+	"blobs_per_second" "5"
+	"drawonly" "0"
+	"end_radius_max" "0.7"
+	"end_radius_min" "0.5"
+	"max_speed" "0"
+	"max_streak_speed_dampen" "0"
+	"max_streak_time" "0.35"
+	"maxblobcount" "250"
+	"min_speed" "0"
+	"min_streak_speed_dampen" "0"
+	"min_streak_time" "0.2"
+	"painttype" "$painttype"
+	"radius_grow_time_max" "1"
+	"radius_grow_time_min" "0.5"
+	"silent" "0"
+	"skin" "0"
+	"start_active" "$start_active"
+	"start_radius_max" "0.7"
+	"start_radius_min" "0.5"
+	"targetname" "paint_sprayer1"
+	"origin" "0 0 -64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "411"
+	"classname" "comp_case"
+	"case01" "0"
+	"case02" "1"
+	"case03" "2"
+	"case04" "3"
+	"ctrl_type" "0"
+	"ctrl_value" "1"
+	"misschance" "0"
+	"mode" "casefold"
+	"MultipleCasesAllowed" "0"
+	"targetname" "paintflow_case"
+	connections
+	{
+		"OnCase01" "dripTrigger0-1"
+		"OnCase02" "lightTrigger0-1"
+		"OnCase03" "mediumTrigger0-1"
+		"OnCase04" "heavyTrigger0-1"
+	}
+	"origin" "24 16 -184"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "511"
+	"classname" "comp_relay"
+	"ctrl_type" "0"
+	"ctrl_value" "1"
+	"delay" "0.0"
+	"targetname" "drip"
+	connections
+	{
+		"OnTrigger" "paint_sprayer2ChangeVariablem_flBlobsPerSecond 00-1"
+		"OnTrigger" "paint_sprayer1ChangeVariablem_nAmbientSound 10-1"
+		"OnTrigger" "paint_sprayer1ChangeVariablem_flBlobsPerSecond 10-1"
+	}
+	"origin" "24 -16 -184"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "643"
+	"classname" "func_instance_parms"
+	"parm1" "$paintflow integer 2"
+	"parm2" "$painttype integer 0"
+	"parm3" "$start_active boolean 0"
+	"parm4" "$dropper_skin integer 3"
+	"parm5" "$paint_tint string paint_bounce"
+	"origin" "0 -24 -184"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "666"
+	"classname" "comp_relay"
+	"ctrl_type" "0"
+	"ctrl_value" "1"
+	"delay" "0.0"
+	"targetname" "light"
+	connections
+	{
+		"OnTrigger" "paint_sprayer2ChangeVariablem_flBlobsPerSecond 30-1"
+		"OnTrigger" "paint_sprayer1ChangeVariablem_nAmbientSound 20-1"
+		"OnTrigger" "paint_sprayer1ChangeVariablem_flBlobsPerSecond 50-1"
+	}
+	"origin" "24 -16 -168"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "688"
+	"classname" "comp_relay"
+	"ctrl_type" "0"
+	"ctrl_value" "1"
+	"delay" "0.0"
+	"targetname" "medium"
+	connections
+	{
+		"OnTrigger" "paint_sprayer2ChangeVariablem_flBlobsPerSecond 30-1"
+		"OnTrigger" "paint_sprayer1ChangeVariablem_nAmbientSound 20-1"
+		"OnTrigger" "paint_sprayer1ChangeVariablem_flBlobsPerSecond 100-1"
+	}
+	"origin" "24 0 -184"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "702"
+	"classname" "comp_relay"
+	"ctrl_type" "0"
+	"ctrl_value" "1"
+	"delay" "0.0"
+	"targetname" "heavy"
+	connections
+	{
+		"OnTrigger" "paint_sprayer1ChangeVariablem_flBlobsPerSecond 200-1"
+		"OnTrigger" "paint_sprayer1ChangeVariablem_nAmbientSound 30-1"
+		"OnTrigger" "paint_sprayer2ChangeVariablem_flBlobsPerSecond 30-1"
+	}
+	"origin" "24 0 -168"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "787"
+	"classname" "logic_auto"
+	"angles" "0 0 0"
+	"spawnflags" "1"
+	connections
+	{
+		"OnMapSpawn" "paintflow_caseInValue$paintflow0-1"
+	}
+	"origin" "0 0 -184"
+	editor
+	{
+		"color" "0 100 250"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "953"
+	"classname" "func_instance_io_proxy"
+	"targetname" "proxy"
+	connections
+	{
+		"OnProxyRelay" "enableTrigger0-1"
+		"OnProxyRelay" "disableTrigger0-1"
+		"OnProxyRelay" "dripTrigger0-1"
+		"OnProxyRelay" "lightTrigger0-1"
+		"OnProxyRelay" "mediumTrigger0-1"
+		"OnProxyRelay" "heavyTrigger0-1"
+	}
+	"origin" "0 24 -184"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "960"
+	"classname" "comp_relay"
+	"ctrl_type" "0"
+	"ctrl_value" "1"
+	"delay" "0.0"
+	"targetname" "enable"
+	connections
+	{
+		"OnTrigger" "paint_sprayer*Start0-1"
+	}
+	"origin" "-24 16 -184"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "972"
+	"classname" "comp_relay"
+	"ctrl_type" "0"
+	"ctrl_value" "1"
+	"delay" "0.0"
+	"targetname" "disable"
+	connections
+	{
+		"OnTrigger" "paint_sprayer*Stop0-1"
+	}
+	"origin" "-24 0 -184"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordons
+{
+	"active" "0"
+}

@@ -1,0 +1,227 @@
+versioninfo
+{
+	"editorextension" "strata"
+	"editorversion" "400"
+	"editorbuild" "10953"
+	"mapversion" "1"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "1"
+	"nGridSpacing" "2"
+	"bShow3DGrid" "0"
+	"nInstanceVisibility" "2"
+	views
+	{
+		v0
+		{
+			"3d" "1"
+			"position" "(177.194 -5.5549 102.626)"
+			"angle" "[21.5999 154.401 0]"
+		}
+		v1
+		{
+			"3d" "0"
+			"position" "(-8.69872 91.9344 65536)"
+			"zoom" "5.54653"
+		}
+		v2
+		{
+			"3d" "0"
+			"position" "(65536 112.911 46.4192)"
+			"zoom" "3.2098"
+		}
+		v3
+		{
+			"3d" "0"
+			"position" "(9.08311 -65536 38.4681)"
+			"zoom" "16.5618"
+		}
+	}
+}
+world
+{
+	"id" "1"
+	"mapversion" "1"
+	"classname" "worldspawn"
+	"skyname" "sky_black_nofog"
+	"maxpropscreenwidth" "-1"
+	"detailvbsp" "detail.vbsp"
+	"detailmaterial" "detail/detailsprites"
+	"maxblobcount" "250"
+	"maxprojectedtextures" "8"
+}
+entity
+{
+	"id" "2"
+	"classname" "prop_static"
+	"angles" "0 0 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"model" "models/props_bts/vactube_128_straight.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"scale" "1 1 1"
+	"skin" "1"
+	"solid" "6"
+	"uniformscale" "1"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "236"
+	"classname" "func_detail"
+	solid
+	{
+		"id" "237"
+		side
+		{
+			"id" "18"
+			"plane" "(39.598 -1.90363e-06 28.2843) (28.2843 -1.90363e-06 39.598) (31.1127 -1.90363e-06 42.4264)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 39.598 -1.90363e-06 28.2843"
+				"point" "1 28.2843 -1.90363e-06 39.598"
+				"point" "2 31.1127 -1.90363e-06 42.4264"
+				"point" "3 42.4264 -1.90363e-06 31.1127"
+			}
+			"material" "ANIM_WP/FRAMEWORK/SQUAREBEAMS"
+			"uaxis" "[0.707107 0 0.707107 -400] 0.25"
+			"vaxis" "[0.707107 0 -0.707107 225] 0.25"
+			"rotation" "90"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "17"
+			"plane" "(42.4264 128 31.1127) (31.1127 128 42.4264) (28.2843 128 39.598)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 42.4264 128 31.1127"
+				"point" "1 31.1127 128 42.4264"
+				"point" "2 28.2843 128 39.598"
+				"point" "3 39.598 128 28.2843"
+			}
+			"material" "ANIM_WP/FRAMEWORK/SQUAREBEAMS"
+			"uaxis" "[0.707107 0 0.707107 -400] 0.25"
+			"vaxis" "[0.707107 0 -0.707107 225] 0.25"
+			"rotation" "90"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "16"
+			"plane" "(39.598 128 28.2843) (39.598 -1.90363e-06 28.2843) (42.4264 -1.90363e-06 31.1127)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 39.598 128 28.2843"
+				"point" "1 39.598 -1.90363e-06 28.2843"
+				"point" "2 42.4264 -1.90363e-06 31.1127"
+				"point" "3 42.4264 128 31.1127"
+			}
+			"material" "ANIM_WP/FRAMEWORK/SQUAREBEAMS"
+			"uaxis" "[0.707107 0 0.707107 -148] 0.25"
+			"vaxis" "[0 1 0 1] 0.25"
+			"rotation" "90"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "15"
+			"plane" "(31.1127 128 42.4264) (31.1127 -1.90363e-06 42.4264) (28.2843 -1.90363e-06 39.598)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 31.1127 128 42.4264"
+				"point" "1 31.1127 -1.90363e-06 42.4264"
+				"point" "2 28.2843 -1.90363e-06 39.598"
+				"point" "3 28.2843 128 39.598"
+			}
+			"material" "ANIM_WP/FRAMEWORK/SQUAREBEAMS"
+			"uaxis" "[0.707107 0 0.707107 -148] 0.25"
+			"vaxis" "[0 1 0 1] 0.25"
+			"rotation" "90"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "14"
+			"plane" "(28.2843 -1.90363e-06 39.598) (39.598 -1.90363e-06 28.2843) (39.598 128 28.2843)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 28.2843 -1.90363e-06 39.598"
+				"point" "1 39.598 -1.90363e-06 28.2843"
+				"point" "2 39.598 128 28.2843"
+				"point" "3 28.2843 128 39.598"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0.707107 0 -0.707107 -32] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "13"
+			"plane" "(31.1127 128 42.4264) (42.4264 128 31.1127) (42.4264 -1.90363e-06 31.1127)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 31.1127 128 42.4264"
+				"point" "1 42.4264 128 31.1127"
+				"point" "2 42.4264 -1.90363e-06 31.1127"
+				"point" "3 31.1127 -1.90363e-06 42.4264"
+			}
+			"material" "SIGNAGE/BTS_NEURO_FLOW01"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0.707107 0 -0.707107 -32] 0.25"
+			"rotation" "90"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 180 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "0 180 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordons
+{
+	"active" "0"
+}

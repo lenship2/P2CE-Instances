@@ -1,0 +1,238 @@
+versioninfo
+{
+	"editorextension" "strata"
+	"editorversion" "400"
+	"editorbuild" "10946"
+	"mapversion" "3"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "1"
+	"nGridSpacing" "8"
+	"bShow3DGrid" "0"
+	"nInstanceVisibility" "2"
+	views
+	{
+		v0
+		{
+			"3d" "1"
+			"position" "(195.649 69.1006 -309.019)"
+			"angle" "[-27.6 -173.6 0]"
+		}
+		v1
+		{
+			"3d" "0"
+			"position" "(33.8946 22.0886 65536)"
+			"zoom" "2.22903"
+		}
+		v2
+		{
+			"3d" "0"
+			"position" "(65536 -32.9896 -248.489)"
+			"zoom" "0.5184"
+		}
+		v3
+		{
+			"3d" "0"
+			"position" "(-11.6951 -65536 139.632)"
+			"zoom" "3.85176"
+		}
+	}
+}
+world
+{
+	"id" "1"
+	"mapversion" "3"
+	"classname" "worldspawn"
+	"skyname" "sky_black_nofog"
+	"maxpropscreenwidth" "-1"
+	"detailvbsp" "detail.vbsp"
+	"detailmaterial" "detail/detailsprites"
+	"maxblobcount" "250"
+	"maxprojectedtextures" "8"
+	solid
+	{
+		"id" "25"
+		side
+		{
+			"id" "1"
+			"plane" "(64 64 -264) (64 -64 -264) (-64 -64 -264)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 64 64 -264"
+				"point" "1 64 -64 -264"
+				"point" "2 -64 -64 -264"
+				"point" "3 -64 64 -264"
+			}
+			"material" "ANIM_WP/FRAMEWORK/BACKPANELS02_NOSPEC"
+			"uaxis" "[1 0 0 256] 0.25"
+			"vaxis" "[0 -1 0 256] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2"
+			"plane" "(-64 64 -272) (-64 -64 -272) (64 -64 -272)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -64 64 -272"
+				"point" "1 -64 -64 -272"
+				"point" "2 64 -64 -272"
+				"point" "3 64 64 -272"
+			}
+			"material" "METAL/BLACK_WALL_METAL_006C"
+			"uaxis" "[1 0 0 768] 0.25"
+			"vaxis" "[0 -1 0 768] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3"
+			"plane" "(64 64 -264) (-64 64 -264) (-64 64 -272)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 64 64 -264"
+				"point" "1 -64 64 -264"
+				"point" "2 -64 64 -272"
+				"point" "3 64 64 -272"
+			}
+			"material" "ANIM_WP/FRAMEWORK/SQUAREBEAMS_RUSTY_01"
+			"uaxis" "[0 0 1 78] 0.25"
+			"vaxis" "[1 0 0 256] 0.25"
+			"rotation" "90"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "4"
+			"plane" "(64 -64 -272) (-64 -64 -272) (-64 -64 -264)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 64 -64 -272"
+				"point" "1 -64 -64 -272"
+				"point" "2 -64 -64 -264"
+				"point" "3 64 -64 -264"
+			}
+			"material" "ANIM_WP/FRAMEWORK/SQUAREBEAMS_RUSTY_01"
+			"uaxis" "[0 0 1 78] 0.25"
+			"vaxis" "[1 0 0 256] 0.25"
+			"rotation" "90"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "5"
+			"plane" "(64 -64 -264) (64 64 -264) (64 64 -272)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 64 -64 -264"
+				"point" "1 64 64 -264"
+				"point" "2 64 64 -272"
+				"point" "3 64 -64 -272"
+			}
+			"material" "ANIM_WP/FRAMEWORK/SQUAREBEAMS_RUSTY_01"
+			"uaxis" "[0 0 1 78] 0.25"
+			"vaxis" "[0 1 0 256] 0.25"
+			"rotation" "90"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "6"
+			"plane" "(-64 -64 -272) (-64 64 -272) (-64 64 -264)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -64 -64 -272"
+				"point" "1 -64 64 -272"
+				"point" "2 -64 64 -264"
+				"point" "3 -64 -64 -264"
+			}
+			"material" "ANIM_WP/FRAMEWORK/SQUAREBEAMS_RUSTY_01"
+			"uaxis" "[0 0 1 78] 0.25"
+			"vaxis" "[0 1 0 256] 0.25"
+			"rotation" "90"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 201 178"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+}
+entity
+{
+	"id" "2"
+	"classname" "prop_static"
+	"angles" "89.9999 0 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"model" "models/anim_wp/telescope_arm_128/telescope_arm_128_idle.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"scale" "1 1 1"
+	"skin" "0"
+	"solid" "6"
+	"uniformscale" "1"
+	"origin" "0 -2.28882e-05 -264"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "91"
+	"classname" "prop_static"
+	"angles" "0 180 -180"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"model" "models/props_bts/straight_piston_base.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"scale" "1 1 1"
+	"skin" "0"
+	"solid" "6"
+	"uniformscale" "1"
+	"origin" "0 -2.28882e-05 -176"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordons
+{
+	"active" "0"
+}

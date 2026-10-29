@@ -1,0 +1,4019 @@
+versioninfo
+{
+	"editorextension" "strata"
+	"editorversion" "400"
+	"editorbuild" "10953"
+	"mapversion" "47"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "1"
+	"nGridSpacing" "4"
+	"bShow3DGrid" "0"
+	"nInstanceVisibility" "2"
+	views
+	{
+		v0
+		{
+			"3d" "1"
+			"position" "(25.3295 -89.1295 48.4756)"
+			"angle" "[9.20005 92.012 0]"
+		}
+		v1
+		{
+			"3d" "0"
+			"position" "(-17.1068 4.0585 65472)"
+			"zoom" "2.22903"
+		}
+		v2
+		{
+			"3d" "0"
+			"position" "(66912 11.5351 51.0758)"
+			"zoom" "1.85749"
+		}
+		v3
+		{
+			"3d" "0"
+			"position" "(690.93 -65920 735.43)"
+			"zoom" "3.85176"
+		}
+	}
+}
+world
+{
+	"id" "1"
+	"mapversion" "47"
+	"classname" "worldspawn"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxblobcount" "250"
+	"maxprojectedtextures" "8"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_black_nofog"
+}
+entity
+{
+	"id" "1112"
+	"classname" "func_instance_parms"
+	"parm1" "$time integer 15"
+	"origin" "40 -8 32"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "1196"
+	"classname" "math_expression"
+	"angles" "0 0 0"
+	"Expression0" "10 * floor(in0 / 10)"
+	"Expression1" "in0 - (10 * floor(in0 / 10))"
+	"Input0" "0"
+	"Input1" "0"
+	"Input10" "0"
+	"Input11" "0"
+	"Input12" "0"
+	"Input13" "0"
+	"Input14" "0"
+	"Input15" "0"
+	"Input2" "0"
+	"Input3" "0"
+	"Input4" "0"
+	"Input5" "0"
+	"Input6" "0"
+	"Input7" "0"
+	"Input8" "0"
+	"Input9" "0"
+	"spawnflags" "0"
+	"startdisabled" "0"
+	"targetname" "digit_extractor"
+	connections
+	{
+		"Output0" "digit1_numbers_managerSetValue0-1"
+		"Output1" "digit2_numbers_managerSetValue0-1"
+	}
+	"origin" "0 -8 32"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4500]"
+	}
+}
+entity
+{
+	"id" "1455"
+	"classname" "ambient_generic"
+	"angles" "0 0 0"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"haddons_enabled" "-1"
+	"haddons_infrange" "-1"
+	"haddons_mode" "-1"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "Portal.room1_TickTock"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"soundflags" "0"
+	"spawnflags" "48"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "timer_sfx"
+	"volstart" "0"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "1514"
+	"classname" "func_brush"
+	"_minlight" "0"
+	"collisiongroup" "0"
+	"disableflashlight" "0"
+	"disablereceiveshadows" "0"
+	"disableshadowdepth" "0"
+	"drawinfastreflection" "0"
+	"effects" "0"
+	"invert_exclusion" "0"
+	"origin" "17 -1 0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"shadowdepthnocache" "0"
+	"solid" "6"
+	"solidbsp" "1"
+	"solidity" "0"
+	"spawnflags" "2"
+	"startdisabled" "0"
+	"targetname" "null_digit"
+	"viewhideflags" "0"
+	"vrad_brush_cast_shadows" "0"
+	solid
+	{
+		"id" "1515"
+		side
+		{
+			"id" "270"
+			"plane" "(32 -1.5 23) (32 -1.5 -23) (2 -1.5 -23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 32 -1.5 23"
+				"point" "1 32 -1.5 -23"
+				"point" "2 2 -1.5 -23"
+				"point" "3 2 -1.5 23"
+			}
+			"material" "EFFECTS/COUNTDOWN_TIMER_NUM_BLANK"
+			"uaxis" "[1 0 0 -14] 0.09"
+			"vaxis" "[0 0 -1 -256] 0.09"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "269"
+			"plane" "(2 -0.5 23) (2 -0.5 -23) (32 -0.5 -23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 2 -0.5 23"
+				"point" "1 2 -0.5 -23"
+				"point" "2 32 -0.5 -23"
+				"point" "3 32 -0.5 23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 -36] 0.25"
+			"vaxis" "[0 0 -1 -44] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "268"
+			"plane" "(32 -0.5 23) (32 -1.5 23) (2 -1.5 23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 32 -0.5 23"
+				"point" "1 32 -1.5 23"
+				"point" "2 2 -1.5 23"
+				"point" "3 2 -0.5 23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 -36] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "267"
+			"plane" "(2 -0.5 -23) (2 -1.5 -23) (32 -1.5 -23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 2 -0.5 -23"
+				"point" "1 2 -1.5 -23"
+				"point" "2 32 -1.5 -23"
+				"point" "3 32 -0.5 -23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 -36] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "266"
+			"plane" "(32 -1.5 -23) (32 -1.5 23) (32 -0.5 23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 32 -1.5 -23"
+				"point" "1 32 -1.5 23"
+				"point" "2 32 -0.5 23"
+				"point" "3 32 -0.5 -23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 -44] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "265"
+			"plane" "(2 -0.5 -23) (2 -0.5 23) (2 -1.5 23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 2 -0.5 -23"
+				"point" "1 2 -0.5 23"
+				"point" "2 2 -1.5 23"
+				"point" "3 2 -1.5 -23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 -44] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3500]"
+	}
+}
+entity
+{
+	"id" "1545"
+	"classname" "func_brush"
+	"_minlight" "0"
+	"collisiongroup" "0"
+	"disableflashlight" "0"
+	"disablereceiveshadows" "0"
+	"disableshadowdepth" "0"
+	"drawinfastreflection" "0"
+	"effects" "0"
+	"invert_exclusion" "0"
+	"origin" "-17 -1 0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"shadowdepthnocache" "0"
+	"solid" "6"
+	"solidbsp" "1"
+	"solidity" "0"
+	"spawnflags" "2"
+	"startdisabled" "0"
+	"targetname" "null_digit"
+	"viewhideflags" "0"
+	"vrad_brush_cast_shadows" "0"
+	solid
+	{
+		"id" "1546"
+		side
+		{
+			"id" "294"
+			"plane" "(-32 -0.5 -23) (-32 -0.5 23) (-32 -1.5 23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -32 -0.5 -23"
+				"point" "1 -32 -0.5 23"
+				"point" "2 -32 -1.5 23"
+				"point" "3 -32 -1.5 -23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 -44] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "293"
+			"plane" "(-2 -1.5 -23) (-2 -1.5 23) (-2 -0.5 23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -2 -1.5 -23"
+				"point" "1 -2 -1.5 23"
+				"point" "2 -2 -0.5 23"
+				"point" "3 -2 -0.5 -23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 -44] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "292"
+			"plane" "(-32 -0.5 -23) (-32 -1.5 -23) (-2 -1.5 -23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -32 -0.5 -23"
+				"point" "1 -32 -1.5 -23"
+				"point" "2 -2 -1.5 -23"
+				"point" "3 -2 -0.5 -23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 36] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "291"
+			"plane" "(-2 -0.5 23) (-2 -1.5 23) (-32 -1.5 23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -2 -0.5 23"
+				"point" "1 -2 -1.5 23"
+				"point" "2 -32 -1.5 23"
+				"point" "3 -32 -0.5 23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 36] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "290"
+			"plane" "(-32 -0.5 23) (-32 -0.5 -23) (-2 -0.5 -23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -32 -0.5 23"
+				"point" "1 -32 -0.5 -23"
+				"point" "2 -2 -0.5 -23"
+				"point" "3 -2 -0.5 23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 36] 0.25"
+			"vaxis" "[0 0 -1 -44] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "289"
+			"plane" "(-2 -1.5 23) (-2 -1.5 -23) (-32 -1.5 -23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -2 -1.5 23"
+				"point" "1 -2 -1.5 -23"
+				"point" "2 -32 -1.5 -23"
+				"point" "3 -32 -1.5 23"
+			}
+			"material" "EFFECTS/COUNTDOWN_TIMER_NUM_BLANK"
+			"uaxis" "[1 0 0 363.778] 0.09"
+			"vaxis" "[0 0 -1 -256] 0.09"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3500]"
+	}
+}
+entity
+{
+	"id" "1587"
+	"classname" "ambient_generic"
+	"angles" "0 0 0"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"haddons_enabled" "-1"
+	"haddons_infrange" "-1"
+	"haddons_mode" "-1"
+	"health" "3"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "vfx/light_flicker/light_flicker_21.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "512"
+	"soundflags" "0"
+	"spawnflags" "48"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "digit1_sfx"
+	"volstart" "0"
+	"origin" "-17 -2 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "1603"
+	"classname" "ambient_generic"
+	"angles" "0 0 0"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"haddons_enabled" "-1"
+	"haddons_infrange" "-1"
+	"haddons_mode" "-1"
+	"health" "3"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "vfx/light_flicker/light_flicker_20.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "512"
+	"soundflags" "0"
+	"spawnflags" "48"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "digit2_sfx"
+	"volstart" "0"
+	"origin" "17 -2 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "1890"
+	"classname" "hammer_notes"
+	"angles" "-0 90 0"
+	"color" "255 255 255"
+	"message" "> $time(integer): Amount of time to count down."
+	"textsize" "3"
+	"origin" "-44 -12 44"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "145"
+	"classname" "prop_static"
+	"angles" "0 270 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"model" "models/props_underground/sign_timer001.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"scale" "1 1 1"
+	"skin" "0"
+	"solid" "6"
+	"uniformscale" "1"
+	"origin" "17 0 0"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "149"
+	"classname" "func_brush"
+	"_minlight" "0"
+	"collisiongroup" "0"
+	"disableflashlight" "0"
+	"disablereceiveshadows" "0"
+	"disableshadowdepth" "0"
+	"drawinfastreflection" "0"
+	"effects" "0"
+	"invert_exclusion" "0"
+	"origin" "17 -1 0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"shadowdepthnocache" "0"
+	"solid" "6"
+	"solidbsp" "1"
+	"solidity" "0"
+	"spawnflags" "2"
+	"startdisabled" "1"
+	"targetname" "digit2_number_9"
+	"viewhideflags" "0"
+	"vrad_brush_cast_shadows" "0"
+	solid
+	{
+		"id" "150"
+		side
+		{
+			"id" "7"
+			"plane" "(2 -0.5 -23) (2 -0.5 23) (2 -1.5 23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 2 -0.5 -23"
+				"point" "1 2 -0.5 23"
+				"point" "2 2 -1.5 23"
+				"point" "3 2 -1.5 -23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 -44] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "8"
+			"plane" "(32 -1.5 -23) (32 -1.5 23) (32 -0.5 23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 32 -1.5 -23"
+				"point" "1 32 -1.5 23"
+				"point" "2 32 -0.5 23"
+				"point" "3 32 -0.5 -23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 -44] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "9"
+			"plane" "(2 -0.5 -23) (2 -1.5 -23) (32 -1.5 -23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 2 -0.5 -23"
+				"point" "1 2 -1.5 -23"
+				"point" "2 32 -1.5 -23"
+				"point" "3 32 -0.5 -23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 -36] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "10"
+			"plane" "(32 -0.5 23) (32 -1.5 23) (2 -1.5 23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 32 -0.5 23"
+				"point" "1 32 -1.5 23"
+				"point" "2 2 -1.5 23"
+				"point" "3 2 -0.5 23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 -36] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11"
+			"plane" "(2 -0.5 23) (2 -0.5 -23) (32 -0.5 -23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 2 -0.5 23"
+				"point" "1 2 -0.5 -23"
+				"point" "2 32 -0.5 -23"
+				"point" "3 32 -0.5 23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 -36] 0.25"
+			"vaxis" "[0 0 -1 -44] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "12"
+			"plane" "(32 -1.5 23) (32 -1.5 -23) (2 -1.5 -23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 32 -1.5 23"
+				"point" "1 32 -1.5 -23"
+				"point" "2 2 -1.5 -23"
+				"point" "3 2 -1.5 23"
+			}
+			"material" "EFFECTS/COUNTDOWN_TIMER_NUM_09"
+			"uaxis" "[1 0 0 -14.2222] 0.09"
+			"vaxis" "[0 0 -1 -256] 0.09"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3500]"
+	}
+}
+entity
+{
+	"id" "154"
+	"classname" "func_brush"
+	"_minlight" "0"
+	"collisiongroup" "0"
+	"disableflashlight" "0"
+	"disablereceiveshadows" "0"
+	"disableshadowdepth" "0"
+	"drawinfastreflection" "0"
+	"effects" "0"
+	"invert_exclusion" "0"
+	"origin" "17 -1 0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"shadowdepthnocache" "0"
+	"solid" "6"
+	"solidbsp" "1"
+	"solidity" "0"
+	"spawnflags" "2"
+	"startdisabled" "1"
+	"targetname" "digit2_number_8"
+	"viewhideflags" "0"
+	"vrad_brush_cast_shadows" "0"
+	solid
+	{
+		"id" "155"
+		side
+		{
+			"id" "78"
+			"plane" "(32 -1.5 23) (32 -1.5 -23) (2 -1.5 -23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 32 -1.5 23"
+				"point" "1 32 -1.5 -23"
+				"point" "2 2 -1.5 -23"
+				"point" "3 2 -1.5 23"
+			}
+			"material" "EFFECTS/COUNTDOWN_TIMER_NUM_08"
+			"uaxis" "[1 0 0 -13.8889] 0.09"
+			"vaxis" "[0 0 -1 -256] 0.09"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "77"
+			"plane" "(2 -0.5 23) (2 -0.5 -23) (32 -0.5 -23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 2 -0.5 23"
+				"point" "1 2 -0.5 -23"
+				"point" "2 32 -0.5 -23"
+				"point" "3 32 -0.5 23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 -36] 0.25"
+			"vaxis" "[0 0 -1 -44] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "76"
+			"plane" "(32 -0.5 23) (32 -1.5 23) (2 -1.5 23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 32 -0.5 23"
+				"point" "1 32 -1.5 23"
+				"point" "2 2 -1.5 23"
+				"point" "3 2 -0.5 23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 -36] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "75"
+			"plane" "(2 -0.5 -23) (2 -1.5 -23) (32 -1.5 -23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 2 -0.5 -23"
+				"point" "1 2 -1.5 -23"
+				"point" "2 32 -1.5 -23"
+				"point" "3 32 -0.5 -23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 -36] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "74"
+			"plane" "(32 -1.5 -23) (32 -1.5 23) (32 -0.5 23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 32 -1.5 -23"
+				"point" "1 32 -1.5 23"
+				"point" "2 32 -0.5 23"
+				"point" "3 32 -0.5 -23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 -44] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "73"
+			"plane" "(2 -0.5 -23) (2 -0.5 23) (2 -1.5 23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 2 -0.5 -23"
+				"point" "1 2 -0.5 23"
+				"point" "2 2 -1.5 23"
+				"point" "3 2 -1.5 -23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 -44] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3500]"
+	}
+}
+entity
+{
+	"id" "159"
+	"classname" "func_brush"
+	"_minlight" "0"
+	"collisiongroup" "0"
+	"disableflashlight" "0"
+	"disablereceiveshadows" "0"
+	"disableshadowdepth" "0"
+	"drawinfastreflection" "0"
+	"effects" "0"
+	"invert_exclusion" "0"
+	"origin" "17 -1 0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"shadowdepthnocache" "0"
+	"solid" "6"
+	"solidbsp" "1"
+	"solidity" "0"
+	"spawnflags" "2"
+	"startdisabled" "1"
+	"targetname" "digit2_number_7"
+	"viewhideflags" "0"
+	"vrad_brush_cast_shadows" "0"
+	solid
+	{
+		"id" "160"
+		side
+		{
+			"id" "84"
+			"plane" "(2 -0.5 -23) (2 -0.5 23) (2 -1.5 23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 2 -0.5 -23"
+				"point" "1 2 -0.5 23"
+				"point" "2 2 -1.5 23"
+				"point" "3 2 -1.5 -23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 -44] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "83"
+			"plane" "(32 -1.5 -23) (32 -1.5 23) (32 -0.5 23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 32 -1.5 -23"
+				"point" "1 32 -1.5 23"
+				"point" "2 32 -0.5 23"
+				"point" "3 32 -0.5 -23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 -44] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "82"
+			"plane" "(2 -0.5 -23) (2 -1.5 -23) (32 -1.5 -23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 2 -0.5 -23"
+				"point" "1 2 -1.5 -23"
+				"point" "2 32 -1.5 -23"
+				"point" "3 32 -0.5 -23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 -36] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "81"
+			"plane" "(32 -0.5 23) (32 -1.5 23) (2 -1.5 23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 32 -0.5 23"
+				"point" "1 32 -1.5 23"
+				"point" "2 2 -1.5 23"
+				"point" "3 2 -0.5 23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 -36] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "80"
+			"plane" "(2 -0.5 23) (2 -0.5 -23) (32 -0.5 -23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 2 -0.5 23"
+				"point" "1 2 -0.5 -23"
+				"point" "2 32 -0.5 -23"
+				"point" "3 32 -0.5 23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 -36] 0.25"
+			"vaxis" "[0 0 -1 -44] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "79"
+			"plane" "(32 -1.5 23) (32 -1.5 -23) (2 -1.5 -23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 32 -1.5 23"
+				"point" "1 32 -1.5 -23"
+				"point" "2 2 -1.5 -23"
+				"point" "3 2 -1.5 23"
+			}
+			"material" "EFFECTS/COUNTDOWN_TIMER_NUM_07"
+			"uaxis" "[1 0 0 -13.8889] 0.09"
+			"vaxis" "[0 0 -1 -256] 0.09"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3500]"
+	}
+}
+entity
+{
+	"id" "164"
+	"classname" "func_brush"
+	"_minlight" "0"
+	"collisiongroup" "0"
+	"disableflashlight" "0"
+	"disablereceiveshadows" "0"
+	"disableshadowdepth" "0"
+	"drawinfastreflection" "0"
+	"effects" "0"
+	"invert_exclusion" "0"
+	"origin" "17 -1 0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"shadowdepthnocache" "0"
+	"solid" "6"
+	"solidbsp" "1"
+	"solidity" "0"
+	"spawnflags" "2"
+	"startdisabled" "1"
+	"targetname" "digit2_number_6"
+	"viewhideflags" "0"
+	"vrad_brush_cast_shadows" "0"
+	solid
+	{
+		"id" "165"
+		side
+		{
+			"id" "90"
+			"plane" "(32 -1.5 23) (32 -1.5 -23) (2 -1.5 -23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 32 -1.5 23"
+				"point" "1 32 -1.5 -23"
+				"point" "2 2 -1.5 -23"
+				"point" "3 2 -1.5 23"
+			}
+			"material" "EFFECTS/COUNTDOWN_TIMER_NUM_06"
+			"uaxis" "[1 0 0 -13.8889] 0.09"
+			"vaxis" "[0 0 -1 -256] 0.09"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "89"
+			"plane" "(2 -0.5 23) (2 -0.5 -23) (32 -0.5 -23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 2 -0.5 23"
+				"point" "1 2 -0.5 -23"
+				"point" "2 32 -0.5 -23"
+				"point" "3 32 -0.5 23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 -36] 0.25"
+			"vaxis" "[0 0 -1 -44] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "88"
+			"plane" "(32 -0.5 23) (32 -1.5 23) (2 -1.5 23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 32 -0.5 23"
+				"point" "1 32 -1.5 23"
+				"point" "2 2 -1.5 23"
+				"point" "3 2 -0.5 23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 -36] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "87"
+			"plane" "(2 -0.5 -23) (2 -1.5 -23) (32 -1.5 -23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 2 -0.5 -23"
+				"point" "1 2 -1.5 -23"
+				"point" "2 32 -1.5 -23"
+				"point" "3 32 -0.5 -23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 -36] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "86"
+			"plane" "(32 -1.5 -23) (32 -1.5 23) (32 -0.5 23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 32 -1.5 -23"
+				"point" "1 32 -1.5 23"
+				"point" "2 32 -0.5 23"
+				"point" "3 32 -0.5 -23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 -44] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "85"
+			"plane" "(2 -0.5 -23) (2 -0.5 23) (2 -1.5 23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 2 -0.5 -23"
+				"point" "1 2 -0.5 23"
+				"point" "2 2 -1.5 23"
+				"point" "3 2 -1.5 -23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 -44] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3500]"
+	}
+}
+entity
+{
+	"id" "169"
+	"classname" "func_brush"
+	"_minlight" "0"
+	"collisiongroup" "0"
+	"disableflashlight" "0"
+	"disablereceiveshadows" "0"
+	"disableshadowdepth" "0"
+	"drawinfastreflection" "0"
+	"effects" "0"
+	"invert_exclusion" "0"
+	"origin" "17 -1 0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"shadowdepthnocache" "0"
+	"solid" "6"
+	"solidbsp" "1"
+	"solidity" "0"
+	"spawnflags" "2"
+	"startdisabled" "1"
+	"targetname" "digit2_number_5"
+	"viewhideflags" "0"
+	"vrad_brush_cast_shadows" "0"
+	solid
+	{
+		"id" "170"
+		side
+		{
+			"id" "96"
+			"plane" "(2 -0.5 -23) (2 -0.5 23) (2 -1.5 23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 2 -0.5 -23"
+				"point" "1 2 -0.5 23"
+				"point" "2 2 -1.5 23"
+				"point" "3 2 -1.5 -23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 -44] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "95"
+			"plane" "(32 -1.5 -23) (32 -1.5 23) (32 -0.5 23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 32 -1.5 -23"
+				"point" "1 32 -1.5 23"
+				"point" "2 32 -0.5 23"
+				"point" "3 32 -0.5 -23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 -44] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "94"
+			"plane" "(2 -0.5 -23) (2 -1.5 -23) (32 -1.5 -23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 2 -0.5 -23"
+				"point" "1 2 -1.5 -23"
+				"point" "2 32 -1.5 -23"
+				"point" "3 32 -0.5 -23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 -36] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "93"
+			"plane" "(32 -0.5 23) (32 -1.5 23) (2 -1.5 23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 32 -0.5 23"
+				"point" "1 32 -1.5 23"
+				"point" "2 2 -1.5 23"
+				"point" "3 2 -0.5 23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 -36] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "92"
+			"plane" "(2 -0.5 23) (2 -0.5 -23) (32 -0.5 -23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 2 -0.5 23"
+				"point" "1 2 -0.5 -23"
+				"point" "2 32 -0.5 -23"
+				"point" "3 32 -0.5 23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 -36] 0.25"
+			"vaxis" "[0 0 -1 -44] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "91"
+			"plane" "(32 -1.5 23) (32 -1.5 -23) (2 -1.5 -23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 32 -1.5 23"
+				"point" "1 32 -1.5 -23"
+				"point" "2 2 -1.5 -23"
+				"point" "3 2 -1.5 23"
+			}
+			"material" "EFFECTS/COUNTDOWN_TIMER_NUM_05"
+			"uaxis" "[1 0 0 -13.8889] 0.09"
+			"vaxis" "[0 0 -1 -256] 0.09"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3500]"
+	}
+}
+entity
+{
+	"id" "174"
+	"classname" "func_brush"
+	"_minlight" "0"
+	"collisiongroup" "0"
+	"disableflashlight" "0"
+	"disablereceiveshadows" "0"
+	"disableshadowdepth" "0"
+	"drawinfastreflection" "0"
+	"effects" "0"
+	"invert_exclusion" "0"
+	"origin" "17 -1 0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"shadowdepthnocache" "0"
+	"solid" "6"
+	"solidbsp" "1"
+	"solidity" "0"
+	"spawnflags" "2"
+	"startdisabled" "1"
+	"targetname" "digit2_number_4"
+	"viewhideflags" "0"
+	"vrad_brush_cast_shadows" "0"
+	solid
+	{
+		"id" "175"
+		side
+		{
+			"id" "102"
+			"plane" "(32 -1.5 23) (32 -1.5 -23) (2 -1.5 -23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 32 -1.5 23"
+				"point" "1 32 -1.5 -23"
+				"point" "2 2 -1.5 -23"
+				"point" "3 2 -1.5 23"
+			}
+			"material" "EFFECTS/COUNTDOWN_TIMER_NUM_04"
+			"uaxis" "[1 0 0 -13.8889] 0.09"
+			"vaxis" "[0 0 -1 -256] 0.09"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "101"
+			"plane" "(2 -0.5 23) (2 -0.5 -23) (32 -0.5 -23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 2 -0.5 23"
+				"point" "1 2 -0.5 -23"
+				"point" "2 32 -0.5 -23"
+				"point" "3 32 -0.5 23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 -36] 0.25"
+			"vaxis" "[0 0 -1 -44] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "100"
+			"plane" "(32 -0.5 23) (32 -1.5 23) (2 -1.5 23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 32 -0.5 23"
+				"point" "1 32 -1.5 23"
+				"point" "2 2 -1.5 23"
+				"point" "3 2 -0.5 23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 -36] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "99"
+			"plane" "(2 -0.5 -23) (2 -1.5 -23) (32 -1.5 -23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 2 -0.5 -23"
+				"point" "1 2 -1.5 -23"
+				"point" "2 32 -1.5 -23"
+				"point" "3 32 -0.5 -23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 -36] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "98"
+			"plane" "(32 -1.5 -23) (32 -1.5 23) (32 -0.5 23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 32 -1.5 -23"
+				"point" "1 32 -1.5 23"
+				"point" "2 32 -0.5 23"
+				"point" "3 32 -0.5 -23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 -44] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "97"
+			"plane" "(2 -0.5 -23) (2 -0.5 23) (2 -1.5 23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 2 -0.5 -23"
+				"point" "1 2 -0.5 23"
+				"point" "2 2 -1.5 23"
+				"point" "3 2 -1.5 -23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 -44] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3500]"
+	}
+}
+entity
+{
+	"id" "179"
+	"classname" "func_brush"
+	"_minlight" "0"
+	"collisiongroup" "0"
+	"disableflashlight" "0"
+	"disablereceiveshadows" "0"
+	"disableshadowdepth" "0"
+	"drawinfastreflection" "0"
+	"effects" "0"
+	"invert_exclusion" "0"
+	"origin" "17 -1 0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"shadowdepthnocache" "0"
+	"solid" "6"
+	"solidbsp" "1"
+	"solidity" "0"
+	"spawnflags" "2"
+	"startdisabled" "1"
+	"targetname" "digit2_number_3"
+	"viewhideflags" "0"
+	"vrad_brush_cast_shadows" "0"
+	solid
+	{
+		"id" "180"
+		side
+		{
+			"id" "108"
+			"plane" "(2 -0.5 -23) (2 -0.5 23) (2 -1.5 23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 2 -0.5 -23"
+				"point" "1 2 -0.5 23"
+				"point" "2 2 -1.5 23"
+				"point" "3 2 -1.5 -23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 -44] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "107"
+			"plane" "(32 -1.5 -23) (32 -1.5 23) (32 -0.5 23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 32 -1.5 -23"
+				"point" "1 32 -1.5 23"
+				"point" "2 32 -0.5 23"
+				"point" "3 32 -0.5 -23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 -44] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "106"
+			"plane" "(2 -0.5 -23) (2 -1.5 -23) (32 -1.5 -23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 2 -0.5 -23"
+				"point" "1 2 -1.5 -23"
+				"point" "2 32 -1.5 -23"
+				"point" "3 32 -0.5 -23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 -36] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "105"
+			"plane" "(32 -0.5 23) (32 -1.5 23) (2 -1.5 23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 32 -0.5 23"
+				"point" "1 32 -1.5 23"
+				"point" "2 2 -1.5 23"
+				"point" "3 2 -0.5 23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 -36] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "104"
+			"plane" "(2 -0.5 23) (2 -0.5 -23) (32 -0.5 -23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 2 -0.5 23"
+				"point" "1 2 -0.5 -23"
+				"point" "2 32 -0.5 -23"
+				"point" "3 32 -0.5 23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 -36] 0.25"
+			"vaxis" "[0 0 -1 -44] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "103"
+			"plane" "(32 -1.5 23) (32 -1.5 -23) (2 -1.5 -23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 32 -1.5 23"
+				"point" "1 32 -1.5 -23"
+				"point" "2 2 -1.5 -23"
+				"point" "3 2 -1.5 23"
+			}
+			"material" "EFFECTS/COUNTDOWN_TIMER_NUM_03"
+			"uaxis" "[1 0 0 -13.8889] 0.09"
+			"vaxis" "[0 0 -1 -256] 0.09"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3500]"
+	}
+}
+entity
+{
+	"id" "184"
+	"classname" "func_brush"
+	"_minlight" "0"
+	"collisiongroup" "0"
+	"disableflashlight" "0"
+	"disablereceiveshadows" "0"
+	"disableshadowdepth" "0"
+	"drawinfastreflection" "0"
+	"effects" "0"
+	"invert_exclusion" "0"
+	"origin" "17 -1 0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"shadowdepthnocache" "0"
+	"solid" "6"
+	"solidbsp" "1"
+	"solidity" "0"
+	"spawnflags" "2"
+	"startdisabled" "1"
+	"targetname" "digit2_number_2"
+	"viewhideflags" "0"
+	"vrad_brush_cast_shadows" "0"
+	solid
+	{
+		"id" "185"
+		side
+		{
+			"id" "114"
+			"plane" "(32 -1.5 23) (32 -1.5 -23) (2 -1.5 -23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 32 -1.5 23"
+				"point" "1 32 -1.5 -23"
+				"point" "2 2 -1.5 -23"
+				"point" "3 2 -1.5 23"
+			}
+			"material" "EFFECTS/COUNTDOWN_TIMER_NUM_02"
+			"uaxis" "[1 0 0 -13.8889] 0.09"
+			"vaxis" "[0 0 -1 -256] 0.09"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "113"
+			"plane" "(2 -0.5 23) (2 -0.5 -23) (32 -0.5 -23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 2 -0.5 23"
+				"point" "1 2 -0.5 -23"
+				"point" "2 32 -0.5 -23"
+				"point" "3 32 -0.5 23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 -36] 0.25"
+			"vaxis" "[0 0 -1 -44] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "112"
+			"plane" "(32 -0.5 23) (32 -1.5 23) (2 -1.5 23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 32 -0.5 23"
+				"point" "1 32 -1.5 23"
+				"point" "2 2 -1.5 23"
+				"point" "3 2 -0.5 23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 -36] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "111"
+			"plane" "(2 -0.5 -23) (2 -1.5 -23) (32 -1.5 -23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 2 -0.5 -23"
+				"point" "1 2 -1.5 -23"
+				"point" "2 32 -1.5 -23"
+				"point" "3 32 -0.5 -23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 -36] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "110"
+			"plane" "(32 -1.5 -23) (32 -1.5 23) (32 -0.5 23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 32 -1.5 -23"
+				"point" "1 32 -1.5 23"
+				"point" "2 32 -0.5 23"
+				"point" "3 32 -0.5 -23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 -44] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "109"
+			"plane" "(2 -0.5 -23) (2 -0.5 23) (2 -1.5 23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 2 -0.5 -23"
+				"point" "1 2 -0.5 23"
+				"point" "2 2 -1.5 23"
+				"point" "3 2 -1.5 -23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 -44] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3500]"
+	}
+}
+entity
+{
+	"id" "189"
+	"classname" "func_brush"
+	"_minlight" "0"
+	"collisiongroup" "0"
+	"disableflashlight" "0"
+	"disablereceiveshadows" "0"
+	"disableshadowdepth" "0"
+	"drawinfastreflection" "0"
+	"effects" "0"
+	"invert_exclusion" "0"
+	"origin" "17 -1 0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"shadowdepthnocache" "0"
+	"solid" "6"
+	"solidbsp" "1"
+	"solidity" "0"
+	"spawnflags" "2"
+	"startdisabled" "1"
+	"targetname" "digit2_number_1"
+	"viewhideflags" "0"
+	"vrad_brush_cast_shadows" "0"
+	solid
+	{
+		"id" "190"
+		side
+		{
+			"id" "120"
+			"plane" "(2 -0.5 -23) (2 -0.5 23) (2 -1.5 23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 2 -0.5 -23"
+				"point" "1 2 -0.5 23"
+				"point" "2 2 -1.5 23"
+				"point" "3 2 -1.5 -23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 -44] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "119"
+			"plane" "(32 -1.5 -23) (32 -1.5 23) (32 -0.5 23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 32 -1.5 -23"
+				"point" "1 32 -1.5 23"
+				"point" "2 32 -0.5 23"
+				"point" "3 32 -0.5 -23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 -44] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "118"
+			"plane" "(2 -0.5 -23) (2 -1.5 -23) (32 -1.5 -23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 2 -0.5 -23"
+				"point" "1 2 -1.5 -23"
+				"point" "2 32 -1.5 -23"
+				"point" "3 32 -0.5 -23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 -36] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "117"
+			"plane" "(32 -0.5 23) (32 -1.5 23) (2 -1.5 23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 32 -0.5 23"
+				"point" "1 32 -1.5 23"
+				"point" "2 2 -1.5 23"
+				"point" "3 2 -0.5 23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 -36] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "116"
+			"plane" "(2 -0.5 23) (2 -0.5 -23) (32 -0.5 -23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 2 -0.5 23"
+				"point" "1 2 -0.5 -23"
+				"point" "2 32 -0.5 -23"
+				"point" "3 32 -0.5 23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 -36] 0.25"
+			"vaxis" "[0 0 -1 -44] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "115"
+			"plane" "(32 -1.5 23) (32 -1.5 -23) (2 -1.5 -23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 32 -1.5 23"
+				"point" "1 32 -1.5 -23"
+				"point" "2 2 -1.5 -23"
+				"point" "3 2 -1.5 23"
+			}
+			"material" "EFFECTS/COUNTDOWN_TIMER_NUM_01"
+			"uaxis" "[1 0 0 -13.8889] 0.09"
+			"vaxis" "[0 0 -1 -256] 0.09"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3500]"
+	}
+}
+entity
+{
+	"id" "194"
+	"classname" "func_brush"
+	"_minlight" "0"
+	"collisiongroup" "0"
+	"disableflashlight" "0"
+	"disablereceiveshadows" "0"
+	"disableshadowdepth" "0"
+	"drawinfastreflection" "0"
+	"effects" "0"
+	"invert_exclusion" "0"
+	"origin" "17 -1 0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"shadowdepthnocache" "0"
+	"solid" "6"
+	"solidbsp" "1"
+	"solidity" "0"
+	"spawnflags" "2"
+	"startdisabled" "1"
+	"targetname" "digit2_number_0"
+	"viewhideflags" "0"
+	"vrad_brush_cast_shadows" "0"
+	solid
+	{
+		"id" "195"
+		side
+		{
+			"id" "126"
+			"plane" "(32 -1.5 23) (32 -1.5 -23) (2 -1.5 -23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 32 -1.5 23"
+				"point" "1 32 -1.5 -23"
+				"point" "2 2 -1.5 -23"
+				"point" "3 2 -1.5 23"
+			}
+			"material" "EFFECTS/COUNTDOWN_TIMER_NUM_00"
+			"uaxis" "[1 0 0 -13.8889] 0.09"
+			"vaxis" "[0 0 -1 -256] 0.09"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "125"
+			"plane" "(2 -0.5 23) (2 -0.5 -23) (32 -0.5 -23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 2 -0.5 23"
+				"point" "1 2 -0.5 -23"
+				"point" "2 32 -0.5 -23"
+				"point" "3 32 -0.5 23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 -36] 0.25"
+			"vaxis" "[0 0 -1 -44] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "124"
+			"plane" "(32 -0.5 23) (32 -1.5 23) (2 -1.5 23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 32 -0.5 23"
+				"point" "1 32 -1.5 23"
+				"point" "2 2 -1.5 23"
+				"point" "3 2 -0.5 23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 -36] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "123"
+			"plane" "(2 -0.5 -23) (2 -1.5 -23) (32 -1.5 -23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 2 -0.5 -23"
+				"point" "1 2 -1.5 -23"
+				"point" "2 32 -1.5 -23"
+				"point" "3 32 -0.5 -23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 -36] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "122"
+			"plane" "(32 -1.5 -23) (32 -1.5 23) (32 -0.5 23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 32 -1.5 -23"
+				"point" "1 32 -1.5 23"
+				"point" "2 32 -0.5 23"
+				"point" "3 32 -0.5 -23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 -44] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "121"
+			"plane" "(2 -0.5 -23) (2 -0.5 23) (2 -1.5 23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 2 -0.5 -23"
+				"point" "1 2 -0.5 23"
+				"point" "2 2 -1.5 23"
+				"point" "3 2 -1.5 -23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 -44] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3500]"
+	}
+}
+entity
+{
+	"id" "199"
+	"classname" "logic_case"
+	"angles" "0 0 0"
+	"case01" "0"
+	"case02" "1"
+	"case03" "2"
+	"case04" "3"
+	"case05" "4"
+	"case06" "5"
+	"case07" "6"
+	"case08" "7"
+	"case09" "8"
+	"case10" "9"
+	"case11" "10"
+	"MultipleCasesAllowed" "0"
+	"targetname" "digit2_numbers_case"
+	connections
+	{
+		"OnUsed" "digit2_number_*Disable0-1"
+		"OnCase01" "digit2_number_0Enable0-1"
+		"OnCase02" "digit2_number_1Enable0-1"
+		"OnCase03" "digit2_number_2Enable0-1"
+		"OnCase04" "digit2_number_3Enable0-1"
+		"OnCase05" "digit2_number_4Enable0-1"
+		"OnCase06" "digit2_number_5Enable0-1"
+		"OnCase07" "digit2_number_6Enable0-1"
+		"OnCase08" "digit2_number_7Enable0-1"
+		"OnCase09" "digit2_number_8Enable0-1"
+		"OnCase10" "digit2_number_9Enable0-1"
+		"OnCase11" "digit2_number_0Enable0-1"
+	}
+	"origin" "40 -8 -16"
+	editor
+	{
+		"color" "0 100 250"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4500]"
+	}
+}
+entity
+{
+	"id" "201"
+	"classname" "math_counter"
+	"angles" "0 0 0"
+	"max" "10"
+	"min" "0"
+	"startdisabled" "0"
+	"startvalue" "0"
+	"targetname" "digit2_numbers_manager"
+	connections
+	{
+		"OnHitMin" "!selfSetValue100-1"
+		"OutValue" "digit2_numbers_caseInValue0-1"
+		"OnGetValue" "digit2_numbers_caseInValue0-1"
+		"OnHitMin" "digit1_numbers_managerSubtract101-1"
+		"OnHitMin" "digit1_sfxPlaySound1-1"
+	}
+	"origin" "40 -8 0"
+	editor
+	{
+		"color" "0 100 250"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4500]"
+	}
+}
+entity
+{
+	"id" "336"
+	"classname" "prop_static"
+	"angles" "0 270 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"model" "models/props_underground/sign_timer001.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"scale" "1 1 1"
+	"skin" "0"
+	"solid" "6"
+	"uniformscale" "1"
+	"origin" "-17 0 0"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "340"
+	"classname" "func_brush"
+	"_minlight" "0"
+	"collisiongroup" "0"
+	"disableflashlight" "0"
+	"disablereceiveshadows" "0"
+	"disableshadowdepth" "0"
+	"drawinfastreflection" "0"
+	"effects" "0"
+	"invert_exclusion" "0"
+	"origin" "-17 -1 0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"shadowdepthnocache" "0"
+	"solid" "6"
+	"solidbsp" "1"
+	"solidity" "0"
+	"spawnflags" "2"
+	"startdisabled" "1"
+	"targetname" "digit1_number_9"
+	"viewhideflags" "0"
+	"vrad_brush_cast_shadows" "0"
+	solid
+	{
+		"id" "341"
+		side
+		{
+			"id" "204"
+			"plane" "(-32 -0.5 -23) (-32 -0.5 23) (-32 -1.5 23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -32 -0.5 -23"
+				"point" "1 -32 -0.5 23"
+				"point" "2 -32 -1.5 23"
+				"point" "3 -32 -1.5 -23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 -44] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "203"
+			"plane" "(-2 -1.5 -23) (-2 -1.5 23) (-2 -0.5 23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -2 -1.5 -23"
+				"point" "1 -2 -1.5 23"
+				"point" "2 -2 -0.5 23"
+				"point" "3 -2 -0.5 -23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 -44] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "202"
+			"plane" "(-32 -0.5 -23) (-32 -1.5 -23) (-2 -1.5 -23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -32 -0.5 -23"
+				"point" "1 -32 -1.5 -23"
+				"point" "2 -2 -1.5 -23"
+				"point" "3 -2 -0.5 -23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 36] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "201"
+			"plane" "(-2 -0.5 23) (-2 -1.5 23) (-32 -1.5 23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -2 -0.5 23"
+				"point" "1 -2 -1.5 23"
+				"point" "2 -32 -1.5 23"
+				"point" "3 -32 -0.5 23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 36] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "200"
+			"plane" "(-32 -0.5 23) (-32 -0.5 -23) (-2 -0.5 -23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -32 -0.5 23"
+				"point" "1 -32 -0.5 -23"
+				"point" "2 -2 -0.5 -23"
+				"point" "3 -2 -0.5 23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 36] 0.25"
+			"vaxis" "[0 0 -1 -44] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "199"
+			"plane" "(-2 -1.5 23) (-2 -1.5 -23) (-32 -1.5 -23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -2 -1.5 23"
+				"point" "1 -2 -1.5 -23"
+				"point" "2 -32 -1.5 -23"
+				"point" "3 -32 -1.5 23"
+			}
+			"material" "EFFECTS/COUNTDOWN_TIMER_NUM_09"
+			"uaxis" "[1 0 0 363.556] 0.09"
+			"vaxis" "[0 0 -1 -256] 0.09"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3500]"
+	}
+}
+entity
+{
+	"id" "345"
+	"classname" "func_brush"
+	"_minlight" "0"
+	"collisiongroup" "0"
+	"disableflashlight" "0"
+	"disablereceiveshadows" "0"
+	"disableshadowdepth" "0"
+	"drawinfastreflection" "0"
+	"effects" "0"
+	"invert_exclusion" "0"
+	"origin" "-17 -1 0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"shadowdepthnocache" "0"
+	"solid" "6"
+	"solidbsp" "1"
+	"solidity" "0"
+	"spawnflags" "2"
+	"startdisabled" "1"
+	"targetname" "digit1_number_8"
+	"viewhideflags" "0"
+	"vrad_brush_cast_shadows" "0"
+	solid
+	{
+		"id" "346"
+		side
+		{
+			"id" "210"
+			"plane" "(-2 -1.5 23) (-2 -1.5 -23) (-32 -1.5 -23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -2 -1.5 23"
+				"point" "1 -2 -1.5 -23"
+				"point" "2 -32 -1.5 -23"
+				"point" "3 -32 -1.5 23"
+			}
+			"material" "EFFECTS/COUNTDOWN_TIMER_NUM_08"
+			"uaxis" "[1 0 0 363.889] 0.09"
+			"vaxis" "[0 0 -1 -256] 0.09"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "209"
+			"plane" "(-32 -0.5 23) (-32 -0.5 -23) (-2 -0.5 -23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -32 -0.5 23"
+				"point" "1 -32 -0.5 -23"
+				"point" "2 -2 -0.5 -23"
+				"point" "3 -2 -0.5 23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 36] 0.25"
+			"vaxis" "[0 0 -1 -44] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "208"
+			"plane" "(-2 -0.5 23) (-2 -1.5 23) (-32 -1.5 23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -2 -0.5 23"
+				"point" "1 -2 -1.5 23"
+				"point" "2 -32 -1.5 23"
+				"point" "3 -32 -0.5 23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 36] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "207"
+			"plane" "(-32 -0.5 -23) (-32 -1.5 -23) (-2 -1.5 -23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -32 -0.5 -23"
+				"point" "1 -32 -1.5 -23"
+				"point" "2 -2 -1.5 -23"
+				"point" "3 -2 -0.5 -23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 36] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "206"
+			"plane" "(-2 -1.5 -23) (-2 -1.5 23) (-2 -0.5 23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -2 -1.5 -23"
+				"point" "1 -2 -1.5 23"
+				"point" "2 -2 -0.5 23"
+				"point" "3 -2 -0.5 -23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 -44] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "205"
+			"plane" "(-32 -0.5 -23) (-32 -0.5 23) (-32 -1.5 23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -32 -0.5 -23"
+				"point" "1 -32 -0.5 23"
+				"point" "2 -32 -1.5 23"
+				"point" "3 -32 -1.5 -23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 -44] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3500]"
+	}
+}
+entity
+{
+	"id" "350"
+	"classname" "func_brush"
+	"_minlight" "0"
+	"collisiongroup" "0"
+	"disableflashlight" "0"
+	"disablereceiveshadows" "0"
+	"disableshadowdepth" "0"
+	"drawinfastreflection" "0"
+	"effects" "0"
+	"invert_exclusion" "0"
+	"origin" "-17 -1 0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"shadowdepthnocache" "0"
+	"solid" "6"
+	"solidbsp" "1"
+	"solidity" "0"
+	"spawnflags" "2"
+	"startdisabled" "1"
+	"targetname" "digit1_number_7"
+	"viewhideflags" "0"
+	"vrad_brush_cast_shadows" "0"
+	solid
+	{
+		"id" "351"
+		side
+		{
+			"id" "216"
+			"plane" "(-32 -0.5 -23) (-32 -0.5 23) (-32 -1.5 23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -32 -0.5 -23"
+				"point" "1 -32 -0.5 23"
+				"point" "2 -32 -1.5 23"
+				"point" "3 -32 -1.5 -23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 -44] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "215"
+			"plane" "(-2 -1.5 -23) (-2 -1.5 23) (-2 -0.5 23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -2 -1.5 -23"
+				"point" "1 -2 -1.5 23"
+				"point" "2 -2 -0.5 23"
+				"point" "3 -2 -0.5 -23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 -44] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "214"
+			"plane" "(-32 -0.5 -23) (-32 -1.5 -23) (-2 -1.5 -23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -32 -0.5 -23"
+				"point" "1 -32 -1.5 -23"
+				"point" "2 -2 -1.5 -23"
+				"point" "3 -2 -0.5 -23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 36] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "213"
+			"plane" "(-2 -0.5 23) (-2 -1.5 23) (-32 -1.5 23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -2 -0.5 23"
+				"point" "1 -2 -1.5 23"
+				"point" "2 -32 -1.5 23"
+				"point" "3 -32 -0.5 23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 36] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "212"
+			"plane" "(-32 -0.5 23) (-32 -0.5 -23) (-2 -0.5 -23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -32 -0.5 23"
+				"point" "1 -32 -0.5 -23"
+				"point" "2 -2 -0.5 -23"
+				"point" "3 -2 -0.5 23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 36] 0.25"
+			"vaxis" "[0 0 -1 -44] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "211"
+			"plane" "(-2 -1.5 23) (-2 -1.5 -23) (-32 -1.5 -23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -2 -1.5 23"
+				"point" "1 -2 -1.5 -23"
+				"point" "2 -32 -1.5 -23"
+				"point" "3 -32 -1.5 23"
+			}
+			"material" "EFFECTS/COUNTDOWN_TIMER_NUM_07"
+			"uaxis" "[1 0 0 363.889] 0.09"
+			"vaxis" "[0 0 -1 -256] 0.09"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3500]"
+	}
+}
+entity
+{
+	"id" "355"
+	"classname" "func_brush"
+	"_minlight" "0"
+	"collisiongroup" "0"
+	"disableflashlight" "0"
+	"disablereceiveshadows" "0"
+	"disableshadowdepth" "0"
+	"drawinfastreflection" "0"
+	"effects" "0"
+	"invert_exclusion" "0"
+	"origin" "-17 -1 0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"shadowdepthnocache" "0"
+	"solid" "6"
+	"solidbsp" "1"
+	"solidity" "0"
+	"spawnflags" "2"
+	"startdisabled" "1"
+	"targetname" "digit1_number_6"
+	"viewhideflags" "0"
+	"vrad_brush_cast_shadows" "0"
+	solid
+	{
+		"id" "356"
+		side
+		{
+			"id" "222"
+			"plane" "(-2 -1.5 23) (-2 -1.5 -23) (-32 -1.5 -23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -2 -1.5 23"
+				"point" "1 -2 -1.5 -23"
+				"point" "2 -32 -1.5 -23"
+				"point" "3 -32 -1.5 23"
+			}
+			"material" "EFFECTS/COUNTDOWN_TIMER_NUM_06"
+			"uaxis" "[1 0 0 363.889] 0.09"
+			"vaxis" "[0 0 -1 -256] 0.09"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "221"
+			"plane" "(-32 -0.5 23) (-32 -0.5 -23) (-2 -0.5 -23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -32 -0.5 23"
+				"point" "1 -32 -0.5 -23"
+				"point" "2 -2 -0.5 -23"
+				"point" "3 -2 -0.5 23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 36] 0.25"
+			"vaxis" "[0 0 -1 -44] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "220"
+			"plane" "(-2 -0.5 23) (-2 -1.5 23) (-32 -1.5 23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -2 -0.5 23"
+				"point" "1 -2 -1.5 23"
+				"point" "2 -32 -1.5 23"
+				"point" "3 -32 -0.5 23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 36] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "219"
+			"plane" "(-32 -0.5 -23) (-32 -1.5 -23) (-2 -1.5 -23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -32 -0.5 -23"
+				"point" "1 -32 -1.5 -23"
+				"point" "2 -2 -1.5 -23"
+				"point" "3 -2 -0.5 -23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 36] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "218"
+			"plane" "(-2 -1.5 -23) (-2 -1.5 23) (-2 -0.5 23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -2 -1.5 -23"
+				"point" "1 -2 -1.5 23"
+				"point" "2 -2 -0.5 23"
+				"point" "3 -2 -0.5 -23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 -44] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "217"
+			"plane" "(-32 -0.5 -23) (-32 -0.5 23) (-32 -1.5 23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -32 -0.5 -23"
+				"point" "1 -32 -0.5 23"
+				"point" "2 -32 -1.5 23"
+				"point" "3 -32 -1.5 -23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 -44] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3500]"
+	}
+}
+entity
+{
+	"id" "360"
+	"classname" "func_brush"
+	"_minlight" "0"
+	"collisiongroup" "0"
+	"disableflashlight" "0"
+	"disablereceiveshadows" "0"
+	"disableshadowdepth" "0"
+	"drawinfastreflection" "0"
+	"effects" "0"
+	"invert_exclusion" "0"
+	"origin" "-17 -1 0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"shadowdepthnocache" "0"
+	"solid" "6"
+	"solidbsp" "1"
+	"solidity" "0"
+	"spawnflags" "2"
+	"startdisabled" "1"
+	"targetname" "digit1_number_5"
+	"viewhideflags" "0"
+	"vrad_brush_cast_shadows" "0"
+	solid
+	{
+		"id" "361"
+		side
+		{
+			"id" "228"
+			"plane" "(-32 -0.5 -23) (-32 -0.5 23) (-32 -1.5 23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -32 -0.5 -23"
+				"point" "1 -32 -0.5 23"
+				"point" "2 -32 -1.5 23"
+				"point" "3 -32 -1.5 -23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 -44] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "227"
+			"plane" "(-2 -1.5 -23) (-2 -1.5 23) (-2 -0.5 23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -2 -1.5 -23"
+				"point" "1 -2 -1.5 23"
+				"point" "2 -2 -0.5 23"
+				"point" "3 -2 -0.5 -23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 -44] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "226"
+			"plane" "(-32 -0.5 -23) (-32 -1.5 -23) (-2 -1.5 -23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -32 -0.5 -23"
+				"point" "1 -32 -1.5 -23"
+				"point" "2 -2 -1.5 -23"
+				"point" "3 -2 -0.5 -23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 36] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "225"
+			"plane" "(-2 -0.5 23) (-2 -1.5 23) (-32 -1.5 23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -2 -0.5 23"
+				"point" "1 -2 -1.5 23"
+				"point" "2 -32 -1.5 23"
+				"point" "3 -32 -0.5 23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 36] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "224"
+			"plane" "(-32 -0.5 23) (-32 -0.5 -23) (-2 -0.5 -23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -32 -0.5 23"
+				"point" "1 -32 -0.5 -23"
+				"point" "2 -2 -0.5 -23"
+				"point" "3 -2 -0.5 23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 36] 0.25"
+			"vaxis" "[0 0 -1 -44] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "223"
+			"plane" "(-2 -1.5 23) (-2 -1.5 -23) (-32 -1.5 -23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -2 -1.5 23"
+				"point" "1 -2 -1.5 -23"
+				"point" "2 -32 -1.5 -23"
+				"point" "3 -32 -1.5 23"
+			}
+			"material" "EFFECTS/COUNTDOWN_TIMER_NUM_05"
+			"uaxis" "[1 0 0 363.889] 0.09"
+			"vaxis" "[0 0 -1 -256] 0.09"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3500]"
+	}
+}
+entity
+{
+	"id" "365"
+	"classname" "func_brush"
+	"_minlight" "0"
+	"collisiongroup" "0"
+	"disableflashlight" "0"
+	"disablereceiveshadows" "0"
+	"disableshadowdepth" "0"
+	"drawinfastreflection" "0"
+	"effects" "0"
+	"invert_exclusion" "0"
+	"origin" "-17 -1 0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"shadowdepthnocache" "0"
+	"solid" "6"
+	"solidbsp" "1"
+	"solidity" "0"
+	"spawnflags" "2"
+	"startdisabled" "1"
+	"targetname" "digit1_number_4"
+	"viewhideflags" "0"
+	"vrad_brush_cast_shadows" "0"
+	solid
+	{
+		"id" "366"
+		side
+		{
+			"id" "234"
+			"plane" "(-2 -1.5 23) (-2 -1.5 -23) (-32 -1.5 -23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -2 -1.5 23"
+				"point" "1 -2 -1.5 -23"
+				"point" "2 -32 -1.5 -23"
+				"point" "3 -32 -1.5 23"
+			}
+			"material" "EFFECTS/COUNTDOWN_TIMER_NUM_04"
+			"uaxis" "[1 0 0 363.889] 0.09"
+			"vaxis" "[0 0 -1 -256] 0.09"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "233"
+			"plane" "(-32 -0.5 23) (-32 -0.5 -23) (-2 -0.5 -23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -32 -0.5 23"
+				"point" "1 -32 -0.5 -23"
+				"point" "2 -2 -0.5 -23"
+				"point" "3 -2 -0.5 23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 36] 0.25"
+			"vaxis" "[0 0 -1 -44] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "232"
+			"plane" "(-2 -0.5 23) (-2 -1.5 23) (-32 -1.5 23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -2 -0.5 23"
+				"point" "1 -2 -1.5 23"
+				"point" "2 -32 -1.5 23"
+				"point" "3 -32 -0.5 23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 36] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "231"
+			"plane" "(-32 -0.5 -23) (-32 -1.5 -23) (-2 -1.5 -23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -32 -0.5 -23"
+				"point" "1 -32 -1.5 -23"
+				"point" "2 -2 -1.5 -23"
+				"point" "3 -2 -0.5 -23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 36] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "230"
+			"plane" "(-2 -1.5 -23) (-2 -1.5 23) (-2 -0.5 23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -2 -1.5 -23"
+				"point" "1 -2 -1.5 23"
+				"point" "2 -2 -0.5 23"
+				"point" "3 -2 -0.5 -23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 -44] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "229"
+			"plane" "(-32 -0.5 -23) (-32 -0.5 23) (-32 -1.5 23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -32 -0.5 -23"
+				"point" "1 -32 -0.5 23"
+				"point" "2 -32 -1.5 23"
+				"point" "3 -32 -1.5 -23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 -44] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3500]"
+	}
+}
+entity
+{
+	"id" "370"
+	"classname" "func_brush"
+	"_minlight" "0"
+	"collisiongroup" "0"
+	"disableflashlight" "0"
+	"disablereceiveshadows" "0"
+	"disableshadowdepth" "0"
+	"drawinfastreflection" "0"
+	"effects" "0"
+	"invert_exclusion" "0"
+	"origin" "-17 -1 0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"shadowdepthnocache" "0"
+	"solid" "6"
+	"solidbsp" "1"
+	"solidity" "0"
+	"spawnflags" "2"
+	"startdisabled" "1"
+	"targetname" "digit1_number_3"
+	"viewhideflags" "0"
+	"vrad_brush_cast_shadows" "0"
+	solid
+	{
+		"id" "371"
+		side
+		{
+			"id" "240"
+			"plane" "(-32 -0.5 -23) (-32 -0.5 23) (-32 -1.5 23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -32 -0.5 -23"
+				"point" "1 -32 -0.5 23"
+				"point" "2 -32 -1.5 23"
+				"point" "3 -32 -1.5 -23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 -44] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "239"
+			"plane" "(-2 -1.5 -23) (-2 -1.5 23) (-2 -0.5 23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -2 -1.5 -23"
+				"point" "1 -2 -1.5 23"
+				"point" "2 -2 -0.5 23"
+				"point" "3 -2 -0.5 -23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 -44] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "238"
+			"plane" "(-32 -0.5 -23) (-32 -1.5 -23) (-2 -1.5 -23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -32 -0.5 -23"
+				"point" "1 -32 -1.5 -23"
+				"point" "2 -2 -1.5 -23"
+				"point" "3 -2 -0.5 -23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 36] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "237"
+			"plane" "(-2 -0.5 23) (-2 -1.5 23) (-32 -1.5 23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -2 -0.5 23"
+				"point" "1 -2 -1.5 23"
+				"point" "2 -32 -1.5 23"
+				"point" "3 -32 -0.5 23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 36] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "236"
+			"plane" "(-32 -0.5 23) (-32 -0.5 -23) (-2 -0.5 -23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -32 -0.5 23"
+				"point" "1 -32 -0.5 -23"
+				"point" "2 -2 -0.5 -23"
+				"point" "3 -2 -0.5 23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 36] 0.25"
+			"vaxis" "[0 0 -1 -44] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "235"
+			"plane" "(-2 -1.5 23) (-2 -1.5 -23) (-32 -1.5 -23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -2 -1.5 23"
+				"point" "1 -2 -1.5 -23"
+				"point" "2 -32 -1.5 -23"
+				"point" "3 -32 -1.5 23"
+			}
+			"material" "EFFECTS/COUNTDOWN_TIMER_NUM_03"
+			"uaxis" "[1 0 0 363.889] 0.09"
+			"vaxis" "[0 0 -1 -256] 0.09"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3500]"
+	}
+}
+entity
+{
+	"id" "375"
+	"classname" "func_brush"
+	"_minlight" "0"
+	"collisiongroup" "0"
+	"disableflashlight" "0"
+	"disablereceiveshadows" "0"
+	"disableshadowdepth" "0"
+	"drawinfastreflection" "0"
+	"effects" "0"
+	"invert_exclusion" "0"
+	"origin" "-17 -1 0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"shadowdepthnocache" "0"
+	"solid" "6"
+	"solidbsp" "1"
+	"solidity" "0"
+	"spawnflags" "2"
+	"startdisabled" "1"
+	"targetname" "digit1_number_2"
+	"viewhideflags" "0"
+	"vrad_brush_cast_shadows" "0"
+	solid
+	{
+		"id" "376"
+		side
+		{
+			"id" "246"
+			"plane" "(-2 -1.5 23) (-2 -1.5 -23) (-32 -1.5 -23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -2 -1.5 23"
+				"point" "1 -2 -1.5 -23"
+				"point" "2 -32 -1.5 -23"
+				"point" "3 -32 -1.5 23"
+			}
+			"material" "EFFECTS/COUNTDOWN_TIMER_NUM_02"
+			"uaxis" "[1 0 0 363.889] 0.09"
+			"vaxis" "[0 0 -1 -256] 0.09"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "245"
+			"plane" "(-32 -0.5 23) (-32 -0.5 -23) (-2 -0.5 -23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -32 -0.5 23"
+				"point" "1 -32 -0.5 -23"
+				"point" "2 -2 -0.5 -23"
+				"point" "3 -2 -0.5 23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 36] 0.25"
+			"vaxis" "[0 0 -1 -44] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "244"
+			"plane" "(-2 -0.5 23) (-2 -1.5 23) (-32 -1.5 23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -2 -0.5 23"
+				"point" "1 -2 -1.5 23"
+				"point" "2 -32 -1.5 23"
+				"point" "3 -32 -0.5 23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 36] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "243"
+			"plane" "(-32 -0.5 -23) (-32 -1.5 -23) (-2 -1.5 -23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -32 -0.5 -23"
+				"point" "1 -32 -1.5 -23"
+				"point" "2 -2 -1.5 -23"
+				"point" "3 -2 -0.5 -23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 36] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "242"
+			"plane" "(-2 -1.5 -23) (-2 -1.5 23) (-2 -0.5 23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -2 -1.5 -23"
+				"point" "1 -2 -1.5 23"
+				"point" "2 -2 -0.5 23"
+				"point" "3 -2 -0.5 -23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 -44] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "241"
+			"plane" "(-32 -0.5 -23) (-32 -0.5 23) (-32 -1.5 23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -32 -0.5 -23"
+				"point" "1 -32 -0.5 23"
+				"point" "2 -32 -1.5 23"
+				"point" "3 -32 -1.5 -23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 -44] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3500]"
+	}
+}
+entity
+{
+	"id" "380"
+	"classname" "func_brush"
+	"_minlight" "0"
+	"collisiongroup" "0"
+	"disableflashlight" "0"
+	"disablereceiveshadows" "0"
+	"disableshadowdepth" "0"
+	"drawinfastreflection" "0"
+	"effects" "0"
+	"invert_exclusion" "0"
+	"origin" "-17 -1 0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"shadowdepthnocache" "0"
+	"solid" "6"
+	"solidbsp" "1"
+	"solidity" "0"
+	"spawnflags" "2"
+	"startdisabled" "1"
+	"targetname" "digit1_number_1"
+	"viewhideflags" "0"
+	"vrad_brush_cast_shadows" "0"
+	solid
+	{
+		"id" "381"
+		side
+		{
+			"id" "252"
+			"plane" "(-32 -0.5 -23) (-32 -0.5 23) (-32 -1.5 23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -32 -0.5 -23"
+				"point" "1 -32 -0.5 23"
+				"point" "2 -32 -1.5 23"
+				"point" "3 -32 -1.5 -23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 -44] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "251"
+			"plane" "(-2 -1.5 -23) (-2 -1.5 23) (-2 -0.5 23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -2 -1.5 -23"
+				"point" "1 -2 -1.5 23"
+				"point" "2 -2 -0.5 23"
+				"point" "3 -2 -0.5 -23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 -44] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "250"
+			"plane" "(-32 -0.5 -23) (-32 -1.5 -23) (-2 -1.5 -23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -32 -0.5 -23"
+				"point" "1 -32 -1.5 -23"
+				"point" "2 -2 -1.5 -23"
+				"point" "3 -2 -0.5 -23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 36] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "249"
+			"plane" "(-2 -0.5 23) (-2 -1.5 23) (-32 -1.5 23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -2 -0.5 23"
+				"point" "1 -2 -1.5 23"
+				"point" "2 -32 -1.5 23"
+				"point" "3 -32 -0.5 23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 36] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "248"
+			"plane" "(-32 -0.5 23) (-32 -0.5 -23) (-2 -0.5 -23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -32 -0.5 23"
+				"point" "1 -32 -0.5 -23"
+				"point" "2 -2 -0.5 -23"
+				"point" "3 -2 -0.5 23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 36] 0.25"
+			"vaxis" "[0 0 -1 -44] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "247"
+			"plane" "(-2 -1.5 23) (-2 -1.5 -23) (-32 -1.5 -23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -2 -1.5 23"
+				"point" "1 -2 -1.5 -23"
+				"point" "2 -32 -1.5 -23"
+				"point" "3 -32 -1.5 23"
+			}
+			"material" "EFFECTS/COUNTDOWN_TIMER_NUM_01"
+			"uaxis" "[1 0 0 363.889] 0.09"
+			"vaxis" "[0 0 -1 -256] 0.09"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3500]"
+	}
+}
+entity
+{
+	"id" "385"
+	"classname" "func_brush"
+	"_minlight" "0"
+	"collisiongroup" "0"
+	"disableflashlight" "0"
+	"disablereceiveshadows" "0"
+	"disableshadowdepth" "0"
+	"drawinfastreflection" "0"
+	"effects" "0"
+	"invert_exclusion" "0"
+	"origin" "-17 -1 0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"shadowdepthnocache" "0"
+	"solid" "6"
+	"solidbsp" "1"
+	"solidity" "0"
+	"spawnflags" "2"
+	"startdisabled" "1"
+	"targetname" "digit1_number_0"
+	"viewhideflags" "0"
+	"vrad_brush_cast_shadows" "0"
+	solid
+	{
+		"id" "386"
+		side
+		{
+			"id" "258"
+			"plane" "(-2 -1.5 23) (-2 -1.5 -23) (-32 -1.5 -23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -2 -1.5 23"
+				"point" "1 -2 -1.5 -23"
+				"point" "2 -32 -1.5 -23"
+				"point" "3 -32 -1.5 23"
+			}
+			"material" "EFFECTS/COUNTDOWN_TIMER_NUM_00"
+			"uaxis" "[1 0 0 363.889] 0.09"
+			"vaxis" "[0 0 -1 -256] 0.09"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "257"
+			"plane" "(-32 -0.5 23) (-32 -0.5 -23) (-2 -0.5 -23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -32 -0.5 23"
+				"point" "1 -32 -0.5 -23"
+				"point" "2 -2 -0.5 -23"
+				"point" "3 -2 -0.5 23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 36] 0.25"
+			"vaxis" "[0 0 -1 -44] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "256"
+			"plane" "(-2 -0.5 23) (-2 -1.5 23) (-32 -1.5 23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -2 -0.5 23"
+				"point" "1 -2 -1.5 23"
+				"point" "2 -32 -1.5 23"
+				"point" "3 -32 -0.5 23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 36] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "255"
+			"plane" "(-32 -0.5 -23) (-32 -1.5 -23) (-2 -1.5 -23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -32 -0.5 -23"
+				"point" "1 -32 -1.5 -23"
+				"point" "2 -2 -1.5 -23"
+				"point" "3 -2 -0.5 -23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 36] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "254"
+			"plane" "(-2 -1.5 -23) (-2 -1.5 23) (-2 -0.5 23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -2 -1.5 -23"
+				"point" "1 -2 -1.5 23"
+				"point" "2 -2 -0.5 23"
+				"point" "3 -2 -0.5 -23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 -44] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "253"
+			"plane" "(-32 -0.5 -23) (-32 -0.5 23) (-32 -1.5 23)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -32 -0.5 -23"
+				"point" "1 -32 -0.5 23"
+				"point" "2 -32 -1.5 23"
+				"point" "3 -32 -1.5 -23"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 -44] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3500]"
+	}
+}
+entity
+{
+	"id" "390"
+	"classname" "logic_case"
+	"angles" "0 0 0"
+	"case01" "0"
+	"case02" "10"
+	"case03" "20"
+	"case04" "30"
+	"case05" "40"
+	"case06" "50"
+	"case07" "60"
+	"case08" "70"
+	"case09" "80"
+	"case10" "90"
+	"MultipleCasesAllowed" "0"
+	"targetname" "digit1_numbers_case"
+	connections
+	{
+		"OnUsed" "digit1_number_*Disable0-1"
+		"OnCase01" "digit1_number_0Enable0-1"
+		"OnCase02" "digit1_number_1Enable0-1"
+		"OnCase03" "digit1_number_2Enable0-1"
+		"OnCase04" "digit1_number_3Enable0-1"
+		"OnCase05" "digit1_number_4Enable0-1"
+		"OnCase06" "digit1_number_5Enable0-1"
+		"OnCase07" "digit1_number_6Enable0-1"
+		"OnCase08" "digit1_number_7Enable0-1"
+		"OnCase09" "digit1_number_8Enable0-1"
+		"OnCase10" "digit1_number_9Enable0-1"
+	}
+	"origin" "-40 -8 -16"
+	editor
+	{
+		"color" "0 100 250"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4500]"
+	}
+}
+entity
+{
+	"id" "641"
+	"classname" "logic_timer"
+	"angles" "0 0 0"
+	"refiretime" "1"
+	"spawnflags" "0"
+	"startdisabled" "1"
+	"targetname" "seconds_timer"
+	"userandomtime" "0"
+	connections
+	{
+		"OnTimer" "digit2_numbers_managerSubtract10-1"
+		"OnTimer" "timer_sfxPlaySound0-1"
+		"OnTimer" "digit2_sfxPlaySound0-1"
+	}
+	"origin" "40 -8 16"
+	editor
+	{
+		"color" "0 100 250"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4500]"
+	}
+}
+entity
+{
+	"id" "660"
+	"classname" "logic_timer"
+	"angles" "0 0 0"
+	"refiretime" "$time"
+	"spawnflags" "0"
+	"startdisabled" "1"
+	"targetname" "full_timer"
+	"userandomtime" "0"
+	connections
+	{
+		"OnTimer" "seconds_timerDisable0-1"
+		"OnTimer" "!selfDisable0-1"
+		"OnTimer" "on_timerTrigger0-1"
+	}
+	"origin" "-40 -8 16"
+	editor
+	{
+		"color" "0 100 250"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4500]"
+	}
+}
+entity
+{
+	"id" "707"
+	"classname" "comp_relay"
+	"ctrl_type" "0"
+	"ctrl_value" "1"
+	"delay" "0.0"
+	"targetname" "count_down"
+	connections
+	{
+		"OnTrigger" "full_timerResetTimer0-1"
+		"OnTrigger" "seconds_timerResetTimer0-1"
+		"OnTrigger" "full_timerEnable0-1"
+		"OnTrigger" "seconds_timerEnable0-1"
+		"OnTrigger" "digit_extractorSetInput0$time0-1"
+		"OnTrigger" "null_digitDisable01"
+		"OnTrigger" "full_timerCancelPending0-1"
+		"OnTrigger" "digit2_numbers_managerCancelPending0-1"
+	}
+	"origin" "-24 -8 32"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4500]"
+	}
+}
+entity
+{
+	"id" "738"
+	"classname" "math_counter"
+	"angles" "0 0 0"
+	"max" "90"
+	"min" "0"
+	"startdisabled" "0"
+	"startvalue" "0"
+	"targetname" "digit1_numbers_manager"
+	connections
+	{
+		"OutValue" "digit1_numbers_caseInValue0-1"
+		"OnGetValue" "digit1_numbers_caseInValue0-1"
+	}
+	"origin" "-40 -8 0"
+	editor
+	{
+		"color" "0 100 250"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2500]"
+	}
+}
+entity
+{
+	"id" "861"
+	"classname" "comp_relay"
+	"ctrl_type" "0"
+	"ctrl_value" "1"
+	"delay" "0.0"
+	"targetname" "on_timer"
+	connections
+	{
+		"OnTrigger" "proxyproxyrelay10-1"
+	}
+	"origin" "24 -8 32"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4500]"
+	}
+}
+entity
+{
+	"id" "889"
+	"classname" "func_instance_io_proxy"
+	"targetname" "proxy"
+	connections
+	{
+		"OnProxyRelay" "count_downTrigger0-1"
+	}
+	"origin" "-40 -8 32"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4500]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordons
+{
+	"active" "0"
+}

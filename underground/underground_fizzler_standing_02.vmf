@@ -1,0 +1,356 @@
+versioninfo
+{
+	"editorextension" "strata"
+	"editorversion" "400"
+	"editorbuild" "10953"
+	"mapversion" "5"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "1"
+	"nGridSpacing" "2"
+	"bShow3DGrid" "0"
+	"nInstanceVisibility" "2"
+	views
+	{
+		v0
+		{
+			"3d" "1"
+			"position" "(-26.3113 -75.4064 114.539)"
+			"angle" "[16.8 77.0118 0]"
+		}
+		v1
+		{
+			"3d" "0"
+			"position" "(-9.23491 -1.83995 65536)"
+			"zoom" "5.54655"
+		}
+		v2
+		{
+			"3d" "0"
+			"position" "(65536 -16.4531 16.9552)"
+			"zoom" "5.54642"
+		}
+		v3
+		{
+			"3d" "0"
+			"position" "(-1146.87 -65536 1117.52)"
+			"zoom" "0.173612"
+		}
+	}
+}
+world
+{
+	"id" "1"
+	"mapversion" "5"
+	"classname" "worldspawn"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxblobcount" "250"
+	"maxprojectedtextures" "8"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_black_nofog"
+}
+entity
+{
+	"id" "103"
+	"classname" "func_detail"
+	solid
+	{
+		"id" "91"
+		side
+		{
+			"id" "18"
+			"plane" "(64 12 128) (66 12 128) (66 -12 128)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 64 12 128"
+				"point" "1 66 12 128"
+				"point" "2 66 -12 128"
+				"point" "3 64 -12 128"
+			}
+			"material" "WOOD/UNDERGROUND_WOODTRIM001A"
+			"uaxis" "[1 0 0 208] 0.25"
+			"vaxis" "[0 -1 0 512] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "17"
+			"plane" "(64 -12 0) (66 -12 0) (66 12 0)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 64 -12 0"
+				"point" "1 66 -12 0"
+				"point" "2 66 12 0"
+				"point" "3 64 12 0"
+			}
+			"material" "WOOD/UNDERGROUND_WOODTRIM001A"
+			"uaxis" "[1 0 0 208] 0.25"
+			"vaxis" "[0 -1 0 512] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "16"
+			"plane" "(64 12 128) (64 -12 128) (64 -12 0)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 64 12 128"
+				"point" "1 64 -12 128"
+				"point" "2 64 -12 0"
+				"point" "3 64 12 0"
+			}
+			"material" "WOOD/UNDERGROUND_WOODTRIM001A"
+			"uaxis" "[0 1 0 208] 0.25"
+			"vaxis" "[0 0 -1 512] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "15"
+			"plane" "(66 12 0) (66 -12 0) (66 -12 128)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 66 12 0"
+				"point" "1 66 -12 0"
+				"point" "2 66 -12 128"
+				"point" "3 66 12 128"
+			}
+			"material" "WOOD/UNDERGROUND_WOODTRIM001A"
+			"uaxis" "[0 1 0 208] 0.25"
+			"vaxis" "[0 0 -1 512] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "14"
+			"plane" "(66 12 128) (64 12 128) (64 12 0)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 66 12 128"
+				"point" "1 64 12 128"
+				"point" "2 64 12 0"
+				"point" "3 66 12 0"
+			}
+			"material" "WOOD/UNDERGROUND_WOODTRIM001A"
+			"uaxis" "[1 0 0 208] 0.25"
+			"vaxis" "[0 0 -1 512] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "13"
+			"plane" "(66 -12 0) (64 -12 0) (64 -12 128)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 66 -12 0"
+				"point" "1 64 -12 0"
+				"point" "2 64 -12 128"
+				"point" "3 66 -12 128"
+			}
+			"material" "WOOD/UNDERGROUND_WOODTRIM001A"
+			"uaxis" "[1 0 0 208] 0.25"
+			"vaxis" "[0 0 -1 512] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 180 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "0 180 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "106"
+	"classname" "func_detail"
+	solid
+	{
+		"id" "107"
+		side
+		{
+			"id" "30"
+			"plane" "(-64 -12 0) (-66 -12 0) (-66 -12 128)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -64 -12 0"
+				"point" "1 -66 -12 0"
+				"point" "2 -66 -12 128"
+				"point" "3 -64 -12 128"
+			}
+			"material" "WOOD/UNDERGROUND_WOODTRIM001A"
+			"uaxis" "[1 0 0 48] 0.25"
+			"vaxis" "[0 0 -1 512] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "29"
+			"plane" "(-64 12 128) (-66 12 128) (-66 12 0)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -64 12 128"
+				"point" "1 -66 12 128"
+				"point" "2 -66 12 0"
+				"point" "3 -64 12 0"
+			}
+			"material" "WOOD/UNDERGROUND_WOODTRIM001A"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 512] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "28"
+			"plane" "(-64 12 0) (-64 -12 0) (-64 -12 128)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -64 12 0"
+				"point" "1 -64 -12 0"
+				"point" "2 -64 -12 128"
+				"point" "3 -64 12 128"
+			}
+			"material" "WOOD/UNDERGROUND_WOODTRIM001A"
+			"uaxis" "[0 1 0 48] 0.25"
+			"vaxis" "[0 0 -1 512] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "27"
+			"plane" "(-66 12 128) (-66 -12 128) (-66 -12 0)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -66 12 128"
+				"point" "1 -66 -12 128"
+				"point" "2 -66 -12 0"
+				"point" "3 -66 12 0"
+			}
+			"material" "WOOD/UNDERGROUND_WOODTRIM001A"
+			"uaxis" "[0 1 0 48] 0.25"
+			"vaxis" "[0 0 -1 512] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "26"
+			"plane" "(-66 -12 0) (-64 -12 0) (-64 12 0)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -66 -12 0"
+				"point" "1 -64 -12 0"
+				"point" "2 -64 12 0"
+				"point" "3 -66 12 0"
+			}
+			"material" "WOOD/UNDERGROUND_WOODTRIM001A"
+			"uaxis" "[1 0 0 208] 0.25"
+			"vaxis" "[0 -1 0 512] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "25"
+			"plane" "(-66 12 128) (-64 12 128) (-64 -12 128)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -66 12 128"
+				"point" "1 -64 12 128"
+				"point" "2 -64 -12 128"
+				"point" "3 -66 -12 128"
+			}
+			"material" "WOOD/UNDERGROUND_WOODTRIM001A"
+			"uaxis" "[1 0 0 208] 0.25"
+			"vaxis" "[0 -1 0 512] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 180 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "0 180 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "205"
+	"classname" "func_instance"
+	"angles" "-0 0 0"
+	"file" "p2ce-instances/underground/underground_fizzler_128x128.vmf"
+	"fixup_style" "0"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordons
+{
+	"active" "0"
+}

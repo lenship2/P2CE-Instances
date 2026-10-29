@@ -1,0 +1,1540 @@
+versioninfo
+{
+	"editorextension" "strata"
+	"editorversion" "400"
+	"editorbuild" "10946"
+	"mapversion" "12"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "1"
+	"nGridSpacing" "8"
+	"bShow3DGrid" "0"
+	"nInstanceVisibility" "2"
+	views
+	{
+		v0
+		{
+			"3d" "1"
+			"position" "(167.976 9.09283 106.381)"
+			"angle" "[19.1999 162.407 0]"
+		}
+		v1
+		{
+			"3d" "0"
+			"position" "(1432.28 512.533 65536)"
+			"zoom" "2.67484"
+		}
+		v2
+		{
+			"3d" "0"
+			"position" "(66432 535.696 67.3911)"
+			"zoom" "2.6748"
+		}
+		v3
+		{
+			"3d" "0"
+			"position" "(101.616 576 124.553)"
+			"zoom" "28.619"
+		}
+	}
+}
+world
+{
+	"id" "1"
+	"mapversion" "12"
+	"classname" "worldspawn"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxblobcount" "250"
+	"maxprojectedtextures" "8"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_black_nofog"
+	solid
+	{
+		"id" "492"
+		side
+		{
+			"id" "7"
+			"plane" "(56 -56 0) (64 -64 0) (-64 -64 0)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 56 -56 0"
+				"point" "1 64 -64 0"
+				"point" "2 -64 -64 0"
+				"point" "3 -56 -56 0"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "8"
+			"plane" "(64 -64 -64) (56 -56 -64) (-56 -56 -64)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 64 -64 -64"
+				"point" "1 56 -56 -64"
+				"point" "2 -56 -56 -64"
+				"point" "3 -64 -64 -64"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "9"
+			"plane" "(-64 -64 0) (-64 -64 -64) (-56 -56 -64)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -64 -64 0"
+				"point" "1 -64 -64 -64"
+				"point" "2 -56 -56 -64"
+				"point" "3 -56 -56 0"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "10"
+			"plane" "(64 -64 -64) (64 -64 0) (56 -56 0)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 64 -64 -64"
+				"point" "1 64 -64 0"
+				"point" "2 56 -56 0"
+				"point" "3 56 -56 -64"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11"
+			"plane" "(-56 -56 0) (-56 -56 -64) (56 -56 -64)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -56 -56 0"
+				"point" "1 -56 -56 -64"
+				"point" "2 56 -56 -64"
+				"point" "3 56 -56 0"
+			}
+			"material" "TOOLS/TOOLSBLACK_CHEAP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "12"
+			"plane" "(-64 -64 -64) (-64 -64 0) (64 -64 0)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -64 -64 -64"
+				"point" "1 -64 -64 0"
+				"point" "2 64 -64 0"
+				"point" "3 64 -64 -64"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 114 191"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "503"
+		side
+		{
+			"id" "48"
+			"plane" "(64 64 -64) (64 64 0) (-64 64 0)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 64 64 -64"
+				"point" "1 64 64 0"
+				"point" "2 -64 64 0"
+				"point" "3 -64 64 -64"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "47"
+			"plane" "(56 56 0) (56 56 -64) (-56 56 -64)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 56 56 0"
+				"point" "1 56 56 -64"
+				"point" "2 -56 56 -64"
+				"point" "3 -56 56 0"
+			}
+			"material" "TOOLS/TOOLSBLACK_CHEAP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "46"
+			"plane" "(-64 64 -64) (-64 64 0) (-56 56 0)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -64 64 -64"
+				"point" "1 -64 64 0"
+				"point" "2 -56 56 0"
+				"point" "3 -56 56 -64"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "45"
+			"plane" "(64 64 0) (64 64 -64) (56 56 -64)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 64 64 0"
+				"point" "1 64 64 -64"
+				"point" "2 56 56 -64"
+				"point" "3 56 56 0"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "44"
+			"plane" "(-64 64 -64) (-56 56 -64) (56 56 -64)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -64 64 -64"
+				"point" "1 -56 56 -64"
+				"point" "2 56 56 -64"
+				"point" "3 64 64 -64"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "43"
+			"plane" "(-56 56 0) (-64 64 0) (64 64 0)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -56 56 0"
+				"point" "1 -64 64 0"
+				"point" "2 64 64 0"
+				"point" "3 56 56 0"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 114 191"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "505"
+		side
+		{
+			"id" "66"
+			"plane" "(56 56 0) (64 64 0) (64 -64 0)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 56 56 0"
+				"point" "1 64 64 0"
+				"point" "2 64 -64 0"
+				"point" "3 56 -56 0"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "65"
+			"plane" "(64 64 -64) (56 56 -64) (56 -56 -64)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 64 64 -64"
+				"point" "1 56 56 -64"
+				"point" "2 56 -56 -64"
+				"point" "3 64 -64 -64"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "64"
+			"plane" "(64 -64 0) (64 -64 -64) (56 -56 -64)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 64 -64 0"
+				"point" "1 64 -64 -64"
+				"point" "2 56 -56 -64"
+				"point" "3 56 -56 0"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "63"
+			"plane" "(64 64 -64) (64 64 0) (56 56 0)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 64 64 -64"
+				"point" "1 64 64 0"
+				"point" "2 56 56 0"
+				"point" "3 56 56 -64"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "62"
+			"plane" "(56 -56 0) (56 -56 -64) (56 56 -64)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 56 -56 0"
+				"point" "1 56 -56 -64"
+				"point" "2 56 56 -64"
+				"point" "3 56 56 0"
+			}
+			"material" "TOOLS/TOOLSBLACK_CHEAP"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "61"
+			"plane" "(64 -64 -64) (64 -64 0) (64 64 0)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 64 -64 -64"
+				"point" "1 64 -64 0"
+				"point" "2 64 64 0"
+				"point" "3 64 64 -64"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 114 191"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "506"
+		side
+		{
+			"id" "72"
+			"plane" "(-64 64 -64) (-64 64 0) (-64 -64 0)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -64 64 -64"
+				"point" "1 -64 64 0"
+				"point" "2 -64 -64 0"
+				"point" "3 -64 -64 -64"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "71"
+			"plane" "(-56 56 0) (-56 56 -64) (-56 -56 -64)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -56 56 0"
+				"point" "1 -56 56 -64"
+				"point" "2 -56 -56 -64"
+				"point" "3 -56 -56 0"
+			}
+			"material" "TOOLS/TOOLSBLACK_CHEAP"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "70"
+			"plane" "(-64 -64 -64) (-64 -64 0) (-56 -56 0)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -64 -64 -64"
+				"point" "1 -64 -64 0"
+				"point" "2 -56 -56 0"
+				"point" "3 -56 -56 -64"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "69"
+			"plane" "(-64 64 0) (-64 64 -64) (-56 56 -64)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -64 64 0"
+				"point" "1 -64 64 -64"
+				"point" "2 -56 56 -64"
+				"point" "3 -56 56 0"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "68"
+			"plane" "(-64 -64 -64) (-56 -56 -64) (-56 56 -64)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -64 -64 -64"
+				"point" "1 -56 -56 -64"
+				"point" "2 -56 56 -64"
+				"point" "3 -64 64 -64"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "67"
+			"plane" "(-56 -56 0) (-64 -64 0) (-64 64 0)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -56 -56 0"
+				"point" "1 -64 -64 0"
+				"point" "2 -64 64 0"
+				"point" "3 -56 56 0"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 114 191"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "507"
+		side
+		{
+			"id" "73"
+			"plane" "(-56 56 -56) (56 56 -56) (56 -56 -56)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -56 56 -56"
+				"point" "1 56 56 -56"
+				"point" "2 56 -56 -56"
+				"point" "3 -56 -56 -56"
+			}
+			"material" "TOOLS/TOOLSBLACK_CHEAP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "74"
+			"plane" "(-56 -56 -64) (56 -56 -64) (56 56 -64)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -56 -56 -64"
+				"point" "1 56 -56 -64"
+				"point" "2 56 56 -64"
+				"point" "3 -56 56 -64"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "75"
+			"plane" "(-56 56 -56) (-56 -56 -56) (-56 -56 -64)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -56 56 -56"
+				"point" "1 -56 -56 -56"
+				"point" "2 -56 -56 -64"
+				"point" "3 -56 56 -64"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "76"
+			"plane" "(56 56 -64) (56 -56 -64) (56 -56 -56)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 56 56 -64"
+				"point" "1 56 -56 -64"
+				"point" "2 56 -56 -56"
+				"point" "3 56 56 -56"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "77"
+			"plane" "(56 56 -56) (-56 56 -56) (-56 56 -64)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 56 56 -56"
+				"point" "1 -56 56 -56"
+				"point" "2 -56 56 -64"
+				"point" "3 56 56 -64"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "78"
+			"plane" "(56 -56 -64) (-56 -56 -64) (-56 -56 -56)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 56 -56 -64"
+				"point" "1 -56 -56 -64"
+				"point" "2 -56 -56 -56"
+				"point" "3 56 -56 -56"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 188 125"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+}
+entity
+{
+	"id" "874"
+	"classname" "func_detail"
+	solid
+	{
+		"id" "768"
+		side
+		{
+			"id" "90"
+			"plane" "(-64 64 128) (64 64 128) (64 -64 128)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -64 64 128"
+				"point" "1 64 64 128"
+				"point" "2 64 -64 128"
+				"point" "3 -64 -64 128"
+			}
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "89"
+			"plane" "(-64 -64 0) (64 -64 0) (64 64 0)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -64 -64 0"
+				"point" "1 64 -64 0"
+				"point" "2 64 64 0"
+				"point" "3 -64 64 0"
+			}
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "88"
+			"plane" "(-64 64 128) (-64 -64 128) (-64 -64 0)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -64 64 128"
+				"point" "1 -64 -64 128"
+				"point" "2 -64 -64 0"
+				"point" "3 -64 64 0"
+			}
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "87"
+			"plane" "(64 64 0) (64 -64 0) (64 -64 128)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 64 64 0"
+				"point" "1 64 -64 0"
+				"point" "2 64 -64 128"
+				"point" "3 64 64 128"
+			}
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "86"
+			"plane" "(64 64 128) (-64 64 128) (-64 64 0)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 64 64 128"
+				"point" "1 -64 64 128"
+				"point" "2 -64 64 0"
+				"point" "3 64 64 0"
+			}
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "85"
+			"plane" "(64 -64 0) (-64 -64 0) (-64 -64 128)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 64 -64 0"
+				"point" "1 -64 -64 0"
+				"point" "2 -64 -64 128"
+				"point" "3 64 -64 128"
+			}
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 180 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "0 180 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "812"
+	"classname" "light_rt"
+	"_castentityshadow" "1"
+	"_constant_attn" "0"
+	"_directmode" "2"
+	"_distance" "0"
+	"_fifty_percent_distance" "32"
+	"_hard_radius_override" "0"
+	"_hard_radius_threshold" "32"
+	"_hardfalloff" "0"
+	"_indirectmode" "1"
+	"_initialshadowsize" "3"
+	"_light" "199 69 63 500"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_linear_attn" "0"
+	"_nocubemapsprite" "1"
+	"_quadratic_attn" "1"
+	"_removeaftercompile" "0"
+	"_shadoworiginoffset" "0 0 0"
+	"_specularmode" "2"
+	"_volumetricmode" "$volumetric"
+	"_zero_percent_distance" "128"
+	"angles" "0 0 0"
+	"fadetickinterval" "0.1"
+	"nearz" "4.0"
+	"slopescale" "1.0"
+	"spawnflags" "0"
+	"style" "0"
+	"textureframe" "0"
+	"volumetric_density" "0.33"
+	"volumetric_lightscale" "1.0"
+	"origin" "-8 0 48"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5000]"
+	}
+}
+entity
+{
+	"id" "2"
+	"classname" "prop_dynamic"
+	"AllowSilentDissolve" "1"
+	"angles" "0 0 0"
+	"animateeveryframe" "1"
+	"body" "0"
+	"collisiongroup" "0"
+	"defaultanim" "turret_factory_build_anim"
+	"disablebonefollowers" "0"
+	"disableflashlight" "0"
+	"disablereceiveshadows" "0"
+	"effects" "0"
+	"explodedamage" "0"
+	"explodemagnitude" "0"
+	"exploderadius" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"glowcolor" "255 255 255"
+	"glowdist" "1024"
+	"glowenabled" "0"
+	"glowstyle" "0"
+	"health" "0"
+	"holdanimation" "0"
+	"LightingOriginHack" "lighting_origin"
+	"maxanimtime" "10"
+	"minanimtime" "5"
+	"minhealthdmg" "0"
+	"model" "models/props_factory/turret_factory.mdl"
+	"modelscale" "1"
+	"performancemode" "0"
+	"physdamagescale" "1.0"
+	"pressuredelay" "0"
+	"randomanimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"setbodygroup" "0"
+	"shadowdepthnocache" "0"
+	"skin" "0"
+	"solid" "6"
+	"spawnflags" "0"
+	"startdisabled" "0"
+	"suppressanimsounds" "0"
+	"targetname" "factory_booth"
+	"texframeindex" "0"
+	"viewhideflags" "0"
+	"origin" "0 0 6"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "71"
+	"classname" "prop_dynamic"
+	"AllowSilentDissolve" "1"
+	"angles" "0 0 0"
+	"animateeveryframe" "1"
+	"body" "0"
+	"collisiongroup" "0"
+	"defaultanim" "welder_arm_positionA_anim"
+	"disablebonefollowers" "0"
+	"disableflashlight" "0"
+	"disablereceiveshadows" "0"
+	"effects" "0"
+	"explodedamage" "0"
+	"explodemagnitude" "0"
+	"exploderadius" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"glowcolor" "255 255 255"
+	"glowdist" "1024"
+	"glowenabled" "0"
+	"glowstyle" "0"
+	"health" "0"
+	"holdanimation" "0"
+	"LightingOriginHack" "lighting_origin"
+	"maxanimtime" "10"
+	"minanimtime" "5"
+	"minhealthdmg" "0"
+	"model" "models/props_factory/welder_arm.mdl"
+	"modelscale" "1"
+	"performancemode" "0"
+	"physdamagescale" "1.0"
+	"pressuredelay" "0"
+	"randomanimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"setbodygroup" "0"
+	"shadowdepthnocache" "0"
+	"skin" "0"
+	"solid" "6"
+	"spawnflags" "0"
+	"startdisabled" "0"
+	"suppressanimsounds" "0"
+	"targetname" "welder_arm_a"
+	"texframeindex" "0"
+	"viewhideflags" "0"
+	"origin" "0 0 6"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "125"
+	"classname" "prop_dynamic"
+	"AllowSilentDissolve" "1"
+	"angles" "0 0 0"
+	"animateeveryframe" "1"
+	"body" "0"
+	"collisiongroup" "0"
+	"defaultanim" "welder_arm_positionB_anim"
+	"disablebonefollowers" "0"
+	"disableflashlight" "0"
+	"disablereceiveshadows" "0"
+	"effects" "0"
+	"explodedamage" "0"
+	"explodemagnitude" "0"
+	"exploderadius" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"glowcolor" "255 255 255"
+	"glowdist" "1024"
+	"glowenabled" "0"
+	"glowstyle" "0"
+	"health" "0"
+	"holdanimation" "0"
+	"LightingOriginHack" "lighting_origin"
+	"maxanimtime" "10"
+	"minanimtime" "5"
+	"minhealthdmg" "0"
+	"model" "models/props_factory/welder_arm.mdl"
+	"modelscale" "1"
+	"performancemode" "0"
+	"physdamagescale" "1.0"
+	"pressuredelay" "0"
+	"randomanimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"setbodygroup" "0"
+	"shadowdepthnocache" "0"
+	"skin" "0"
+	"solid" "6"
+	"spawnflags" "0"
+	"startdisabled" "0"
+	"suppressanimsounds" "0"
+	"targetname" "welder_arm_b"
+	"texframeindex" "0"
+	"viewhideflags" "0"
+	"origin" "0 0 6"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "140"
+	"classname" "prop_dynamic"
+	"AllowSilentDissolve" "1"
+	"angles" "0 0 0"
+	"animateeveryframe" "1"
+	"body" "0"
+	"collisiongroup" "0"
+	"defaultanim" "welder_arm_positionC_anim"
+	"disablebonefollowers" "0"
+	"disableflashlight" "0"
+	"disablereceiveshadows" "0"
+	"effects" "0"
+	"explodedamage" "0"
+	"explodemagnitude" "0"
+	"exploderadius" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"glowcolor" "255 255 255"
+	"glowdist" "1024"
+	"glowenabled" "0"
+	"glowstyle" "0"
+	"health" "0"
+	"holdanimation" "0"
+	"LightingOriginHack" "lighting_origin"
+	"maxanimtime" "10"
+	"minanimtime" "5"
+	"minhealthdmg" "0"
+	"model" "models/props_factory/welder_arm.mdl"
+	"modelscale" "1"
+	"performancemode" "0"
+	"physdamagescale" "1.0"
+	"pressuredelay" "0"
+	"randomanimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"setbodygroup" "0"
+	"shadowdepthnocache" "0"
+	"skin" "0"
+	"solid" "6"
+	"spawnflags" "0"
+	"startdisabled" "0"
+	"suppressanimsounds" "0"
+	"targetname" "welder_arm_c"
+	"texframeindex" "0"
+	"viewhideflags" "0"
+	"origin" "0 0 6"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "155"
+	"classname" "prop_dynamic"
+	"AllowSilentDissolve" "1"
+	"angles" "0 0 0"
+	"animateeveryframe" "1"
+	"body" "0"
+	"collisiongroup" "0"
+	"defaultanim" "roboarm_position1_anim"
+	"disablebonefollowers" "0"
+	"disableflashlight" "0"
+	"disablereceiveshadows" "0"
+	"effects" "0"
+	"explodedamage" "0"
+	"explodemagnitude" "0"
+	"exploderadius" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"glowcolor" "255 255 255"
+	"glowdist" "1024"
+	"glowenabled" "0"
+	"glowstyle" "0"
+	"health" "0"
+	"holdanimation" "0"
+	"LightingOriginHack" "lighting_origin"
+	"maxanimtime" "10"
+	"minanimtime" "5"
+	"minhealthdmg" "0"
+	"model" "models/props_factory/roboarm.mdl"
+	"modelscale" "1"
+	"performancemode" "0"
+	"physdamagescale" "1.0"
+	"pressuredelay" "0"
+	"randomanimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"setbodygroup" "0"
+	"shadowdepthnocache" "0"
+	"skin" "0"
+	"solid" "6"
+	"spawnflags" "0"
+	"startdisabled" "0"
+	"suppressanimsounds" "0"
+	"targetname" "roboarm_1"
+	"texframeindex" "0"
+	"viewhideflags" "0"
+	"origin" "0 0 6"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "179"
+	"classname" "prop_dynamic"
+	"AllowSilentDissolve" "1"
+	"angles" "0 0 0"
+	"animateeveryframe" "1"
+	"body" "0"
+	"collisiongroup" "0"
+	"defaultanim" "roboarm_position2_anim"
+	"disablebonefollowers" "0"
+	"disableflashlight" "0"
+	"disablereceiveshadows" "0"
+	"effects" "0"
+	"explodedamage" "0"
+	"explodemagnitude" "0"
+	"exploderadius" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"glowcolor" "255 255 255"
+	"glowdist" "1024"
+	"glowenabled" "0"
+	"glowstyle" "0"
+	"health" "0"
+	"holdanimation" "0"
+	"LightingOriginHack" "lighting_origin"
+	"maxanimtime" "10"
+	"minanimtime" "5"
+	"minhealthdmg" "0"
+	"model" "models/props_factory/roboarm.mdl"
+	"modelscale" "1"
+	"performancemode" "0"
+	"physdamagescale" "1.0"
+	"pressuredelay" "0"
+	"randomanimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"setbodygroup" "0"
+	"shadowdepthnocache" "0"
+	"skin" "0"
+	"solid" "6"
+	"spawnflags" "0"
+	"startdisabled" "0"
+	"suppressanimsounds" "0"
+	"targetname" "roboarm_2"
+	"texframeindex" "0"
+	"viewhideflags" "0"
+	"origin" "0 0 6"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "194"
+	"classname" "prop_dynamic"
+	"AllowSilentDissolve" "1"
+	"angles" "0 0 0"
+	"animateeveryframe" "1"
+	"body" "0"
+	"collisiongroup" "0"
+	"defaultanim" "roboarm_position3_anim"
+	"disablebonefollowers" "0"
+	"disableflashlight" "0"
+	"disablereceiveshadows" "0"
+	"effects" "0"
+	"explodedamage" "0"
+	"explodemagnitude" "0"
+	"exploderadius" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"glowcolor" "255 255 255"
+	"glowdist" "1024"
+	"glowenabled" "0"
+	"glowstyle" "0"
+	"health" "0"
+	"holdanimation" "0"
+	"LightingOriginHack" "lighting_origin"
+	"maxanimtime" "10"
+	"minanimtime" "5"
+	"minhealthdmg" "0"
+	"model" "models/props_factory/roboarm.mdl"
+	"modelscale" "1"
+	"performancemode" "0"
+	"physdamagescale" "1.0"
+	"pressuredelay" "0"
+	"randomanimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"setbodygroup" "0"
+	"shadowdepthnocache" "0"
+	"skin" "0"
+	"solid" "6"
+	"spawnflags" "0"
+	"startdisabled" "0"
+	"suppressanimsounds" "0"
+	"targetname" "roboarm_3"
+	"texframeindex" "0"
+	"viewhideflags" "0"
+	"origin" "0 0 6"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "209"
+	"classname" "prop_dynamic"
+	"AllowSilentDissolve" "1"
+	"angles" "0 0 0"
+	"animateeveryframe" "1"
+	"body" "0"
+	"collisiongroup" "0"
+	"defaultanim" "roboarm_position4_anim"
+	"disablebonefollowers" "0"
+	"disableflashlight" "0"
+	"disablereceiveshadows" "0"
+	"effects" "0"
+	"explodedamage" "0"
+	"explodemagnitude" "0"
+	"exploderadius" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"glowcolor" "255 255 255"
+	"glowdist" "1024"
+	"glowenabled" "0"
+	"glowstyle" "0"
+	"health" "0"
+	"holdanimation" "0"
+	"LightingOriginHack" "lighting_origin"
+	"maxanimtime" "10"
+	"minanimtime" "5"
+	"minhealthdmg" "0"
+	"model" "models/props_factory/roboarm.mdl"
+	"modelscale" "1"
+	"performancemode" "0"
+	"physdamagescale" "1.0"
+	"pressuredelay" "0"
+	"randomanimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"setbodygroup" "0"
+	"shadowdepthnocache" "0"
+	"skin" "0"
+	"solid" "6"
+	"spawnflags" "0"
+	"startdisabled" "0"
+	"suppressanimsounds" "0"
+	"targetname" "roboarm_4"
+	"texframeindex" "0"
+	"viewhideflags" "0"
+	"origin" "0 0 6"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "224"
+	"classname" "prop_dynamic"
+	"AllowSilentDissolve" "1"
+	"angles" "0 0 0"
+	"animateeveryframe" "1"
+	"body" "0"
+	"collisiongroup" "0"
+	"defaultanim" "roboarm_position5_anim"
+	"disablebonefollowers" "0"
+	"disableflashlight" "0"
+	"disablereceiveshadows" "0"
+	"effects" "0"
+	"explodedamage" "0"
+	"explodemagnitude" "0"
+	"exploderadius" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"glowcolor" "255 255 255"
+	"glowdist" "1024"
+	"glowenabled" "0"
+	"glowstyle" "0"
+	"health" "0"
+	"holdanimation" "0"
+	"LightingOriginHack" "lighting_origin"
+	"maxanimtime" "10"
+	"minanimtime" "5"
+	"minhealthdmg" "0"
+	"model" "models/props_factory/roboarm.mdl"
+	"modelscale" "1"
+	"performancemode" "0"
+	"physdamagescale" "1.0"
+	"pressuredelay" "0"
+	"randomanimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"setbodygroup" "0"
+	"shadowdepthnocache" "0"
+	"skin" "0"
+	"solid" "6"
+	"spawnflags" "0"
+	"startdisabled" "0"
+	"suppressanimsounds" "0"
+	"targetname" "roboarm_5"
+	"texframeindex" "0"
+	"viewhideflags" "0"
+	"origin" "0 0 6"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "274"
+	"classname" "comp_relay"
+	"ctrl_type" "0"
+	"ctrl_value" "1"
+	"delay" "0.0"
+	"targetname" "startanimation"
+	connections
+	{
+		"OnTrigger" "welder_arm_cSetPlaybackRate10-1"
+		"OnTrigger" "welder_arm_bSetPlaybackRate10-1"
+		"OnTrigger" "welder_arm_aSetPlaybackRate10-1"
+		"OnTrigger" "roboarm_5SetPlaybackRate10-1"
+		"OnTrigger" "roboarm_4SetPlaybackRate10-1"
+		"OnTrigger" "roboarm_3SetPlaybackRate10-1"
+		"OnTrigger" "roboarm_2SetPlaybackRate10-1"
+		"OnTrigger" "roboarm_1SetPlaybackRate10-1"
+		"OnTrigger" "factory_boothSetPlaybackRate10-1"
+	}
+	"origin" "48 48 32"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "324"
+	"classname" "comp_relay"
+	"ctrl_type" "0"
+	"ctrl_value" "1"
+	"delay" "0.0"
+	"targetname" "stopanimation"
+	connections
+	{
+		"OnTrigger" "factory_boothSetPlaybackRate00-1"
+		"OnTrigger" "roboarm_1SetPlaybackRate00-1"
+		"OnTrigger" "roboarm_2SetPlaybackRate00-1"
+		"OnTrigger" "roboarm_3SetPlaybackRate00-1"
+		"OnTrigger" "roboarm_4SetPlaybackRate00-1"
+		"OnTrigger" "roboarm_5SetPlaybackRate00-1"
+		"OnTrigger" "welder_arm_aSetPlaybackRate00-1"
+		"OnTrigger" "welder_arm_bSetPlaybackRate00-1"
+		"OnTrigger" "welder_arm_cSetPlaybackRate00-1"
+	}
+	"origin" "48 32 32"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "336"
+	"classname" "func_instance_io_proxy"
+	"targetname" "proxy"
+	connections
+	{
+		"OnProxyRelay" "stopanimationTrigger0-1"
+		"OnProxyRelay" "startanimationTrigger0-1"
+	}
+	"origin" "48 48 48"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "457"
+	"classname" "logic_auto"
+	"angles" "0 0 0"
+	"spawnflags" "1"
+	connections
+	{
+		"OnMapSpawn" "start_off_rlTrigger0-1"
+	}
+	"origin" "48 32 64"
+	editor
+	{
+		"color" "0 100 250"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "466"
+	"classname" "comp_relay"
+	"ctrl_type" "$start_active"
+	"ctrl_value" "1"
+	"delay" "0.0"
+	"targetname" "start_off_rl"
+	connections
+	{
+		"OnTrigger" "stopanimationTrigger0-1"
+	}
+	"origin" "48 32 48"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "481"
+	"classname" "func_instance_parms"
+	"parm1" "$start_active boolean 1"
+	"parm2" "$volumetric boolean 1"
+	connections
+	{
+		"OnMapSpawn" "start_off_rlTrigger0-1"
+	}
+	"origin" "48 48 64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "530"
+	"classname" "info_lighting_relative"
+	"angles" "0 0 0"
+	"targetname" "lighting_origin"
+	"origin" "16 0 48"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5000]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordons
+{
+	"active" "0"
+}

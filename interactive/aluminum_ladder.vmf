@@ -1,0 +1,220 @@
+versioninfo
+{
+	"editorextension" "strata"
+	"editorversion" "400"
+	"editorbuild" "10953"
+	"mapversion" "11"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "1"
+	"nGridSpacing" "2"
+	"bShow3DGrid" "0"
+	"nInstanceVisibility" "2"
+	views
+	{
+		v0
+		{
+			"3d" "1"
+			"position" "(-54.164 -2.09383 95.9638)"
+			"angle" "[7.5996 -3.584 0]"
+		}
+		v1
+		{
+			"3d" "0"
+			"position" "(44.8671 31.9531 0)"
+			"zoom" "0.432001"
+		}
+		v2
+		{
+			"3d" "0"
+			"position" "(0 31.9531 9)"
+			"zoom" "19.8739"
+		}
+		v3
+		{
+			"3d" "0"
+			"position" "(44.8671 0 9)"
+			"zoom" "0.622082"
+		}
+	}
+}
+world
+{
+	"id" "1"
+	"mapversion" "11"
+	"classname" "worldspawn"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxblobcount" "250"
+	"maxprojectedtextures" "8"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_black_nofog"
+}
+entity
+{
+	"id" "2"
+	"classname" "prop_static"
+	"angles" "4 180 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"model" "models/props/de_train/ladderaluminium.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"scale" "1 1 1"
+	"skin" "0"
+	"solid" "6"
+	"uniformscale" "1"
+	"origin" "12 0 84"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "143"
+	"classname" "func_useableladder"
+	"angles" "0 0 0"
+	"origin" "36 0 0"
+	"point0" "36 0 0"
+	"point1" "20 0 168"
+	"spawnflags" "0"
+	"startdisabled" "0"
+	"origin" "0 -8 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "218"
+	"classname" "info_ladder_dismount"
+	"angles" "0 0 0"
+	"origin" "32 48 0"
+	editor
+	{
+		"color" "255 128 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "231"
+	"classname" "info_ladder_dismount"
+	"angles" "0 0 0"
+	"origin" "80 0 0"
+	editor
+	{
+		"color" "255 128 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "241"
+	"classname" "info_ladder_dismount"
+	"angles" "0 0 0"
+	"origin" "32 -48 0"
+	editor
+	{
+		"color" "255 128 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "277"
+	"classname" "hammer_notes"
+	"angles" "-0 90 0"
+	"color" "255 255 255"
+	"message" "> Note:"
+	"textsize" "5"
+	"origin" "16 -32 30"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2500]"
+	}
+}
+entity
+{
+	"id" "323"
+	"classname" "hammer_notes"
+	"angles" "-0 90 0"
+	"color" "255 255 255"
+	"message" "> HL2 Ladders don't recieve instance fixups,"
+	"textsize" "4"
+	"origin" "16 -32 26"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2500]"
+	}
+}
+entity
+{
+	"id" "344"
+	"classname" "hammer_notes"
+	"angles" "-0 90 0"
+	"color" "255 255 255"
+	"message" "> meaning that the ladder will teleport to 0 0 0."
+	"textsize" "4"
+	"origin" "16 -32 22"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2500]"
+	}
+}
+entity
+{
+	"id" "526"
+	"classname" "hammer_notes"
+	"angles" "-0 90 0"
+	"color" "255 255 255"
+	"message" "> Make sure to collapse the instance before compile."
+	"textsize" "4"
+	"origin" "16 -32 18"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2500]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordons
+{
+	"active" "0"
+}

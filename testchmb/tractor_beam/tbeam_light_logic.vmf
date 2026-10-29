@@ -1,0 +1,686 @@
+versioninfo
+{
+	"editorextension" "strata"
+	"editorversion" "400"
+	"editorbuild" "10943"
+	"mapversion" "64"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+	visgroup
+	{
+		"name" "descriptions"
+		"visgroupid" "11"
+		"color" "217 158 167"
+	}
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "1"
+	"nGridSpacing" "4"
+	"bShow3DGrid" "0"
+	"nInstanceVisibility" "2"
+	views
+	{
+		v0
+		{
+			"3d" "1"
+			"position" "(98.1988 -56.2881 14.4123)"
+			"angle" "[28.7999 178.006 0]"
+		}
+		v1
+		{
+			"3d" "0"
+			"position" "(-36.5073 17.709 65376)"
+			"zoom" "1.28995"
+		}
+		v2
+		{
+			"3d" "0"
+			"position" "(64576 -172.906 -107.969)"
+			"zoom" "7.9869"
+		}
+		v3
+		{
+			"3d" "0"
+			"position" "(36.4367 -66144 35.4868)"
+			"zoom" "3.20981"
+		}
+	}
+}
+world
+{
+	"id" "1"
+	"mapversion" "64"
+	"classname" "worldspawn"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxblobcount" "250"
+	"maxprojectedtextures" "8"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_black_nofog"
+}
+entity
+{
+	"id" "4163"
+	"classname" "math_counter"
+	"angles" "0 0 0"
+	"max" "0"
+	"min" "-1"
+	"startdisabled" "0"
+	"startvalue" "0"
+	"targetname" "light_color_manager"
+	connections
+	{
+		"OnHitMax" "tbeam_lightSetLightColor$primary_color0-1"
+		"OnChangedFromMax" "tbeam_lightSetLightColor$secondary_color0-1"
+	}
+	"origin" "8 72 72"
+	editor
+	{
+		"color" "0 100 250"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "4245"
+	"classname" "comp_relay"
+	"ctrl_type" "0"
+	"ctrl_value" "1"
+	"delay" "0.0"
+	"targetname" "speed1"
+	connections
+	{
+		"OnTrigger" "tbeamSetLinearForce$speed10-1"
+		"OnTrigger" "light_color_managerSetValue$speed10-1"
+	}
+	"origin" "8 88 -72"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "4253"
+	"classname" "comp_relay"
+	"ctrl_type" "0"
+	"ctrl_value" "1"
+	"delay" "0.0"
+	"targetname" "speed2"
+	connections
+	{
+		"OnTrigger" "tbeamSetLinearForce$speed20-1"
+		"OnTrigger" "light_color_managerSetValue$speed20-1"
+	}
+	"origin" "8 72 -88"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "4261"
+	"classname" "comp_relay"
+	"ctrl_type" "0"
+	"ctrl_value" "1"
+	"delay" "0.0"
+	"targetname" "speed3"
+	connections
+	{
+		"OnTrigger" "tbeamSetLinearForce$speed30-1"
+		"OnTrigger" "light_color_managerSetValue$speed30-1"
+	}
+	"origin" "8 88 -88"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "4313"
+	"classname" "hammer_notes"
+	"angles" "-0 180 0"
+	"color" "255 255 255"
+	"message" "> $primary_color(color255): Primary color ( => 0 speed)."
+	"textsize" "5"
+	"origin" "8 -96 108"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupid" "11"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 11500]"
+	}
+}
+entity
+{
+	"id" "4334"
+	"classname" "hammer_notes"
+	"angles" "-0 -180 0"
+	"color" "255 255 255"
+	"message" "> $secondary_color(color255): Secondary color ( < 0 speed)."
+	"textsize" "5"
+	"origin" "8 -96 100"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupid" "11"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 11500]"
+	}
+}
+entity
+{
+	"id" "2672"
+	"classname" "prop_tractor_beam"
+	"AllowSilentDissolve" "1"
+	"angles" "0 0 0"
+	"body" "0"
+	"collisiongroup" "0"
+	"disableflashlight" "0"
+	"disablehelper" "0"
+	"disablereceiveshadows" "0"
+	"effects" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"glowcolor" "255 255 255"
+	"glowdist" "1024"
+	"glowenabled" "0"
+	"glowstyle" "0"
+	"linearforce" "$speed0"
+	"model" "models/props/tractor_beam_emitter.mdl"
+	"noemitterparticles" "0"
+	"primarycolor" "$primary_color 255"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"secondarycolor" "$secondary_color 255"
+	"setbodygroup" "0"
+	"shadowdepthnocache" "0"
+	"solid" "6"
+	"startenabled" "$start_active"
+	"targetname" "tbeam"
+	"texframeindex" "0"
+	"use128model" "0"
+	"viewhideflags" "0"
+	"origin" "-4 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "2932"
+	"classname" "comp_relay"
+	"ctrl_type" "0"
+	"ctrl_value" "1"
+	"delay" "0.0"
+	"targetname" "turn_on"
+	connections
+	{
+		"OnTrigger" "light_onTrigger0-1"
+		"OnTrigger" "tbeamEnable0-1"
+	}
+	"origin" "8 88 72"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "2962"
+	"classname" "comp_relay"
+	"ctrl_type" "0"
+	"ctrl_value" "1"
+	"delay" "0.0"
+	"targetname" "turn_off"
+	connections
+	{
+		"OnTrigger" "light_offTrigger0-1"
+		"OnTrigger" "tbeamDisable0-1"
+	}
+	"origin" "8 88 56"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "3449"
+	"classname" "comp_kv_setter"
+	"angles" "0 0 0"
+	"conv_ang" "0"
+	"ctrl_type" "0"
+	"ctrl_value" "$start_active"
+	"invert" "0"
+	"kv_name" "1"
+	"kv_value_global" "0"
+	"kv_value_mode" "legacy"
+	"kv_value_pos" "8 -72 -72"
+	"mode" "flags"
+	"rotate" "0"
+	"target" "tbeam_light"
+	"origin" "8 -72 -72"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 9500]"
+	}
+}
+entity
+{
+	"id" "3750"
+	"classname" "comp_relay"
+	"ctrl_type" "0"
+	"ctrl_value" "1"
+	"delay" "0.0"
+	"targetname" "speed0"
+	connections
+	{
+		"OnTrigger" "tbeamSetLinearForce$speed00-1"
+		"OnTrigger" "light_color_managerSetValue$speed00-1"
+	}
+	"origin" "8 72 -72"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "2064"
+	"classname" "hammer_notes"
+	"angles" "-0 -180 0"
+	"color" "255 255 255"
+	"message" "> $start_active(boolean): If light should start disabled."
+	"textsize" "5"
+	"origin" "8 -96 124"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupid" "11"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 11500]"
+	}
+}
+entity
+{
+	"id" "2579"
+	"classname" "comp_kv_setter"
+	"angles" "0 0 0"
+	"conv_ang" "0"
+	"ctrl_type" "0"
+	"ctrl_value" "$shadowed"
+	"invert" "0"
+	"kv_name" "2"
+	"kv_value_global" "1"
+	"kv_value_mode" "legacy"
+	"kv_value_pos" "8 -72 -88"
+	"mode" "flags"
+	"rotate" "0"
+	"target" "tbeam_light"
+	"origin" "8 -72 -88"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 9500]"
+	}
+}
+entity
+{
+	"id" "2617"
+	"classname" "hammer_notes"
+	"angles" "-0 180 0"
+	"color" "255 255 255"
+	"message" "> $shadowed(boolean): If light should be shadowed."
+	"textsize" "5"
+	"origin" "8 -96 116"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupid" "11"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 11500]"
+	}
+}
+entity
+{
+	"id" "555"
+	"classname" "func_detail"
+	solid
+	{
+		"id" "551"
+		side
+		{
+			"id" "1116"
+			"plane" "(0 -96 -96) (-112 -96 -96) (-112 -96 96)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 0 -96 -96"
+				"point" "1 -112 -96 -96"
+				"point" "2 -112 -96 96"
+				"point" "3 0 -96 96"
+			}
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1115"
+			"plane" "(0 96 96) (-112 96 96) (-112 96 -96)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 0 96 96"
+				"point" "1 -112 96 96"
+				"point" "2 -112 96 -96"
+				"point" "3 0 96 -96"
+			}
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1114"
+			"plane" "(0 96 -96) (0 -96 -96) (0 -96 96)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 0 96 -96"
+				"point" "1 0 -96 -96"
+				"point" "2 0 -96 96"
+				"point" "3 0 96 96"
+			}
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1113"
+			"plane" "(-112 96 96) (-112 -96 96) (-112 -96 -96)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -112 96 96"
+				"point" "1 -112 -96 96"
+				"point" "2 -112 -96 -96"
+				"point" "3 -112 96 -96"
+			}
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1112"
+			"plane" "(-112 -96 -96) (0 -96 -96) (0 96 -96)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -112 -96 -96"
+				"point" "1 0 -96 -96"
+				"point" "2 0 96 -96"
+				"point" "3 -112 96 -96"
+			}
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1111"
+			"plane" "(-112 96 96) (0 96 96) (0 -96 96)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -112 96 96"
+				"point" "1 0 96 96"
+				"point" "2 0 -96 96"
+				"point" "3 -112 -96 96"
+			}
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 180 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "0 180 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 8000]"
+	}
+}
+entity
+{
+	"id" "807"
+	"classname" "light_rt"
+	"_castentityshadow" "1"
+	"_constant_attn" "0"
+	"_directmode" "2"
+	"_distance" "0"
+	"_fifty_percent_distance" "100"
+	"_hard_radius_override" "0"
+	"_hard_radius_threshold" "32"
+	"_hardfalloff" "0"
+	"_indirectmode" "0"
+	"_initialshadowsize" "1"
+	"_light" "$primary_color 200"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_linear_attn" "0"
+	"_nocubemapsprite" "1"
+	"_quadratic_attn" "1"
+	"_removeaftercompile" "0"
+	"_shadoworiginoffset" "0 0 0"
+	"_specularmode" "2"
+	"_volumetricmode" "2"
+	"_zero_percent_distance" "300"
+	"angles" "0 0 0"
+	"fadetickinterval" "0.1"
+	"nearz" "45"
+	"slopescale" "1.0"
+	"spawnflags" "5"
+	"style" "0"
+	"targetname" "tbeam_light"
+	"textureframe" "0"
+	"volumetric_density" "0.0"
+	"volumetric_lightscale" "1.0"
+	"origin" "48 0 0"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 9000]"
+	}
+}
+entity
+{
+	"id" "915"
+	"classname" "func_instance_io_proxy"
+	"targetname" "proxy"
+	connections
+	{
+		"OnProxyRelay" "turn_onTrigger0-1"
+		"OnProxyRelay" "turn_offTrigger0-1"
+		"OnProxyRelay" "speed1Trigger0-1"
+		"OnProxyRelay" "speed2Trigger0-1"
+		"OnProxyRelay" "speed3Trigger0-1"
+		"OnProxyRelay" "speed0Trigger0-1"
+	}
+	"origin" "8 88 88"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 9500]"
+	}
+}
+entity
+{
+	"id" "1038"
+	"classname" "comp_numeric_transition"
+	"angles" "0 0 0"
+	"beat_interval" "0.02"
+	"delay" "0.0"
+	"duration" "1"
+	"easing_end" "quartic"
+	"easing_start" "linear"
+	"endval" "0"
+	"io_type" "io"
+	"opt_name" "SetLightScale"
+	"spawnflags" "0"
+	"startdisabled" "0"
+	"startval" "200"
+	"target" "tbeam_light"
+	"targetname" "light_off"
+	"transform" "moveto"
+	connections
+	{
+		"OnFinished" "tbeam_lightTurnOff0-1"
+		"OnTrigger" "light_onCancelPending0-1"
+	}
+	"origin" "8 -88 -88"
+	editor
+	{
+		"color" "0 100 250"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 9500]"
+	}
+}
+entity
+{
+	"id" "1143"
+	"classname" "comp_numeric_transition"
+	"angles" "0 0 0"
+	"beat_interval" "0.01"
+	"delay" "0.0"
+	"duration" "0.1"
+	"easing_end" "linear"
+	"easing_start" "quartic"
+	"endval" "200"
+	"io_type" "io"
+	"opt_name" "SetLightScale"
+	"spawnflags" "0"
+	"startdisabled" "0"
+	"startval" "0"
+	"target" "tbeam_light"
+	"targetname" "light_on"
+	"transform" "moveto"
+	connections
+	{
+		"OnTrigger" "tbeam_lightTurnOn0-1"
+		"OnTrigger" "light_offCancelPending0-1"
+	}
+	"origin" "8 -88 -72"
+	editor
+	{
+		"color" "0 100 250"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 9500]"
+	}
+}
+entity
+{
+	"id" "1264"
+	"classname" "func_instance_parms"
+	"parm1" "$start_active boolean 1"
+	"parm2" "$shadowed boolean 1"
+	"parm3" "$speed0 integer 250"
+	"parm4" "$speed1 integer -250"
+	"parm5" "$speed2 integer 250"
+	"parm6" "$speed3 integer -250"
+	"parm7" "$primary_color color255 10 160 255"
+	"parm8" "$secondary_color color255 255 160 32"
+	"origin" "8 72 88"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 11000]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordons
+{
+	"active" "0"
+}
